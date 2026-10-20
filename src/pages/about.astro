@@ -7,7 +7,7 @@ import FaqSection from '../components/FaqSection.astro';
 import { site } from '../data/site';
 import { faqSchema, pageFaqs } from '../data/faqs';
 ---
-<BaseLayout title="About Our Upper North Shore Blocked Drain Plumbers" description={`Meet the licensed blocked-drain team behind ${site.name}. Learn how experience, CCTV inspection, water jetting and clear diagnosis shape our Upper North Shore drain service.`} schema={faqSchema(pageFaqs.about)}>
+<BaseLayout title="About Our Upper North Shore Blocked Drain Plumbers" description={`Meet the licensed team at ${site.name}. Learn how we diagnose blockages, inspect pipes and plan drain repairs.`} schema={faqSchema(pageFaqs.about)}>
   <PageHero label="About the Team" title="Upper North Shore drain plumbers focused on the cause." intro="Specialist drainage equipment, evidence-led diagnosis and a clear distinction between clearing an obstruction and repairing a damaged line." image="/images/team.webp" imageAlt="Three licensed plumbers standing beside a blue service vehicle" />
   <section class="section detail-grid">
     <div><h2>Licensed Blocked Drain Service in the Upper North Shore</h2><p>{site.name} is provided by {site.operator}. Regulated drainage work is undertaken under NSW contractor licence {site.licence}.</p><p>The dedicated website helps Upper North Shore customers find focused information about blocked toilets, sewer and stormwater drains, CCTV inspections, water jetting and drain repairs.</p></div>

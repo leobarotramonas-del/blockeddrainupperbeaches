@@ -26,6 +26,8 @@ for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
   const titleValue=html.match(/<title>([^<]+)<\/title>/)?.[1];
   const descValue=html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+  const decodedDescription = descValue?.replace(/&(?:amp|quot|apos|lt|gt|#\d+|#x[0-9a-f]+);/gi, 'x');
+  if ([...(decodedDescription ?? '')].length > 150) errors.push(`${relative}: meta description exceeds 150 characters`);
   if(titles.has(titleValue)||descriptions.has(descValue)) errors.push(relative+': duplicate metadata');
   titles.add(titleValue);descriptions.add(descValue);
   if(!allowIndexing&&!html.includes('noindex,nofollow')) errors.push(relative+': missing preview noindex');

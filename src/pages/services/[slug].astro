@@ -14,7 +14,7 @@ const local=areas.filter(a=>guide.areas.includes(a.slug));
 const related=services.filter(s=>guide.related.includes(s.slug));
 const schema=[{'@type':'Service',name:`${service.name} in the Upper North Shore`,description:service.summary,serviceType:service.name,areaServed:local.map(a=>({'@type':'Place',name:`${a.name}, NSW ${a.postcode}`}))},faqSchema(faqs)];
 ---
-<BaseLayout title={`${service.name} Upper North Shore`} description={`${service.summary} See professional methods, safe first actions and Upper North Shore access advice.`} schema={schema}>
+<BaseLayout title={`${service.name} Upper North Shore`} description={`${service.summary} Serving the Upper North Shore.`} schema={schema}>
 <PageHero label="Drain service guide" title={`${service.name} in the Upper North Shore`} intro={service.summary} image={service.image} imageAlt={service.imageAlt}/>
 <section class="section detail-grid"><div><h2>Signs you may notice</h2><ul class="check-list">{service.signs.map(s=><li>{s}</li>)}</ul></div><div><h2>Possible causes</h2><ul class="check-list">{service.causes.map(s=><li>{s}</li>)}</ul><p>Symptoms help narrow the investigation; they do not confirm the cause on their own.</p></div></section>
 <section class="method-panel"><div><h2>Diagnosis before equipment</h2><p>{service.method}</p><p>{guide.suitability}</p></div><div><h2>Tools and materials</h2><ul class="check-list">{service.tools.map(s=><li>{s}</li>)}</ul><p>Selection depends on safe access, the obstruction and the actual pipe condition.</p></div></section>
