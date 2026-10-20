@@ -1,0 +1,7 @@
+{
+  "name": "blockeddrainupperbeaches",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-19",
+  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": true, "html_handling": "force-trailing-slash", "not_found_handling": "404-page" },
+  "workers_dev": true
+}

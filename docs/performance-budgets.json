@@ -1,0 +1,23 @@
+{
+  "pages": 36,
+  "externalJsBytes": 0,
+  "inlineJsBytes": 579,
+  "homepageBytes": 53857,
+  "heroCandidates": [
+    {
+      "url": "/_astro/blocked-drains.Bf2Is61D_2lXQhs.webp",
+      "width": 360,
+      "bytes": 28738
+    },
+    {
+      "url": "/_astro/blocked-drains.Bf2Is61D_dQfSt.webp",
+      "width": 480,
+      "bytes": 43082
+    },
+    {
+      "url": "/_astro/blocked-drains.Bf2Is61D_1wMMq4.webp",
+      "width": 720,
+      "bytes": 98190
+    }
+  ]
+}

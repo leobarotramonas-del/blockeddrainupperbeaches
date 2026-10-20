@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+import lighthouse from 'lighthouse';
+import {launch} from 'chrome-launcher';
+const chrome=await launch({chromePath:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',chromeFlags:['--headless','--no-sandbox','--disable-gpu']});
+const reports=[];
+try{for(const [name,route] of [['home','/'],['service','/services/cctv-drain-inspections/'],['locality','/service-areas/east-killara/']]){const result=await lighthouse('http://127.0.0.1:4388'+route,{port:chrome.port,output:'json',logLevel:'error',onlyCategories:['performance','accessibility','best-practices','seo']});fs.writeFileSync('qa/lighthouse-'+name+'.json',result.report);const l=result.lhr;reports.push({name,scores:Object.fromEntries(Object.entries(l.categories).map(([k,v])=>[k,Math.round(v.score*100)])),fcp:l.audits['first-contentful-paint'].numericValue,lcp:l.audits['largest-contentful-paint'].numericValue,cls:l.audits['cumulative-layout-shift'].numericValue,tbt:l.audits['total-blocking-time'].numericValue,failed:Object.entries(l.audits).filter(([,a])=>a.score!==null&&a.score<.9).map(([id,a])=>({id,title:a.title,value:a.displayValue}))});}fs.writeFileSync('qa/lighthouse-summary.json',JSON.stringify(reports,null,2));console.log(JSON.stringify(reports,null,2));}finally{chrome.kill();}

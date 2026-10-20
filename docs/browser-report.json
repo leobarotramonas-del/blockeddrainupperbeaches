@@ -1,0 +1,298 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/cctv-drain-inspections/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/east-killara/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/404/",
+      "width": 320,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/",
+      "width": 375,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/cctv-drain-inspections/",
+      "width": 375,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/",
+      "width": 375,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/east-killara/",
+      "width": 375,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/about/",
+      "width": 375,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/contact/",
+      "width": 375,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/404/",
+      "width": 375,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/",
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/cctv-drain-inspections/",
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/",
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/east-killara/",
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/404/",
+      "width": 768,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/",
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/cctv-drain-inspections/",
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/",
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/east-killara/",
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/about/",
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/contact/",
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/404/",
+      "width": 1024,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/services/cctv-drain-inspections/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/service-areas/east-killara/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    },
+    {
+      "route": "/404/",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "offenders": []
+    }
+  ],
+  "errors": [],
+  "focus": {
+    "text": "Skip to Main Content",
+    "outline": "solid"
+  },
+  "phones": [
+    "tel:+61493824176",
+    "tel:+61493824176",
+    "tel:+61493824176",
+    "tel:+61493824176",
+    "tel:+61493824176",
+    "tel:+61493824176",
+    "tel:+61493824176"
+  ]
+}

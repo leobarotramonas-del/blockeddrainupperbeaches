@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import { areas, services } from '../../data/site';
+import { faqSchema } from '../../data/faqs';
+export function getStaticPaths(){return areas.map(area=>({params:{slug:area.slug},props:{area}}));}
+const {area}=Astro.props;
+const relevant=services.filter(s=>area.focus.includes(s.slug));
+const nearby=areas.filter(a=>area.neighbours.includes(a.slug));
+const schema=[{'@type':'Service',name:`Blocked drain diagnosis and clearing in ${area.name}`,description:area.intro,serviceType:'Blocked drain diagnosis, clearing and repair',areaServed:{'@type':'Place',name:`${area.name}, NSW ${area.postcode}`,address:{'@type':'PostalAddress',addressLocality:area.name,postalCode:area.postcode,addressRegion:'NSW',addressCountry:'AU'}}},faqSchema(area.faqs)];
+---
+<BaseLayout title={area.title} description={area.description} schema={schema}>
+<PageHero label={`${area.name} NSW ${area.postcode}`} title={area.title} intro={area.intro} image={area.image} imageAlt={area.imageAlt}/>
+<section class="section detail-grid"><div><h2>Property context and possible causes</h2><p>{area.localIssue}. These are possibilities, not a diagnosis of every property.</p><p>Hair and soap can restrict a bathroom waste; grease, wipes or foreign objects may lodge further along a branch. Roots need an entry point. Several affected fixtures, recurring blockages or an overflowing gully call for assessment of the connected line.</p></div><div><h2>Plan safe access</h2><p>{area.access}.</p><p class="local-note">{area.localOrientation}</p><p>Current coverage is confirmed by full street address. Call with symptoms and urgency to discuss the next available response.</p></div></section>
+<section class="method-panel"><div><h2>From symptoms to evidence</h2><p>{area.diagnosis}</p><ol class="diagnostic-steps"><li>Describe timing, affected fixtures and any overflow.</li><li>Establish safe access and the affected section.</li><li>Clear using a method suited to obstruction and pipe condition.</li><li>Inspect recurring faults where appropriate, test flow and explain the findings.</li></ol></div><div><h2>Before the plumber arrives</h2><p>Stop using connected fixtures. Keep people and pets away from wastewater and avoid chemical cleaners. Tell the plumber if chemicals have already been used.</p><p>Do not enter pits, flooded basements or lift heavy covers. If water threatens electrical equipment, stay clear. Immediate danger needs the appropriate emergency service.</p><h3>Clearing and repair are separate</h3><p>{area.repair}</p></div></section>
+<section class="section"><h2>Relevant methods and equipment</h2><div class="service-list">{relevant.map((service,index)=><a class="service-row" href={`/services/${service.slug}/`}><span>{index+1}</span><h3>{service.name}</h3><p>{service.summary}</p></a>)}</div><p class="local-note">Equipment follows actual access and pipe condition. <a href="/services/">Explore all eight services</a>.</p></section>
+<FaqSection title={`${area.name}: practical drain questions`} items={area.faqs}/>
+<section class="section related-section"><h2>Nearby locality guides</h2><div class="area-links">{nearby.map(a=><a href={`/service-areas/${a.slug}/`}>{a.name}<span>{a.postcode}</span></a>)}</div><a href="/service-areas/">View Upper North Shore coverage guidance</a></section>
+<CtaBand title={`Talk through a blocked drain in ${area.name}`}/>
+</BaseLayout>

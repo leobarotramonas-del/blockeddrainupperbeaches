@@ -1,0 +1,65 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+const causes = [
+ {id:'roots',label:'Tree roots',title:'Roots enter through an opening.',text:'Roots can enter a cracked pipe or open joint, then catch waste and restrict flow. Clearing the roots may restore flow while the entry point remains.',sign:'A drain that blocks again after earlier root clearing.',next:'Inspect the cleared line and locate the entry point before discussing repair.',image:'/images/blocked-drain-excavation.webp',alt:'Antons plumber exposing underground drainage for inspection and repair',href:'/services/tree-root-blockages/'},
+ {id:'grease',label:'Grease & residue',title:'Deposits narrow the pipe.',text:'Fat, soap and sediment can build up along the inside of a drain. As the usable opening shrinks, wastewater has less room to pass.',sign:'Slow drainage that gradually becomes worse.',next:'Assess the pipe and use suitable cleaning or controlled water jetting.',image:'/images/blocked-drains.webp',alt:'Antons technician using a drain-clearing hose at an outdoor access point',href:'/services/high-pressure-water-jetting/'},
+ {id:'wipes',label:'Wipes & objects',title:'Caught material becomes a blockage.',text:'Wipes and foreign objects can catch on a bend, rough joint or existing debris. More waste collects behind them, sometimes causing a sudden backup.',sign:'A toilet rises, or several connected fixtures back up.',next:'Stop using affected fixtures. Professional retrieval or clearing depends on the obstruction and access.',image:'/images/drain-camera-inspection.webp',alt:'Drain inspection camera and monitor beside an accessible drainage opening',href:'/services/sewer-drain-blockages/'},
+ {id:'damage',label:'Damaged pipe',title:'A displaced section traps debris.',text:'A cracked, displaced or collapsed section can interrupt flow. Clearing may remove the immediate obstruction without correcting the damaged pipe.',sign:'Repeated blockages despite clearing, sometimes with standing water in the line.',next:'Use CCTV and locating where suitable to define a targeted repair.',image:'/images/west-ryde-drainage-trench.webp',alt:'Exposed underground drainage pipework in a repair trench',href:'/services/drain-repairs/'},
+];
+---
+<section class="cause-explorer" aria-labelledby="causes-title" data-cause-explorer>
+ <div class="explorer-heading"><h2 id="causes-title">A blockage is a symptom. The cause decides the fix.</h2><p>Hover, focus or tap a pipe section to explore what could be happening.</p></div>
+ <div class="cause-controls" role="group" aria-label="Explore possible drain blockage causes">
+  {causes.map((cause,index)=><button type="button" class="cause-choice" data-cause={cause.id} aria-pressed={index===0} aria-controls={`cause-panel-${cause.id}`}>
+   <svg viewBox="0 0 200 100" aria-hidden="true" focusable="false">
+    <path class="pipe-wall" d="M0 25H200M0 75H200" />
+    <path class="pipe-flow" d="M8 50H40M25 44L34 50L25 56M160 50H192M177 44L186 50L177 56" />
+    {cause.id==='roots'&&<g class="pipe-fault"><path d="M100 0V50M100 25L77 42M100 35L120 52M100 49L83 64M100 49L111 67M78 42L70 54" /></g>}
+    {cause.id==='grease'&&<g class="pipe-fault"><path d="M54 27H145L132 38H72ZM54 73H145L133 61H70Z" fill="currentColor" /></g>}
+    {cause.id==='wipes'&&<g class="pipe-fault"><path d="M79 33L110 39L102 65L72 58ZM105 42L130 34L139 60L114 68Z" fill="currentColor" fill-opacity=".4" /></g>}
+    {cause.id==='damage'&&<g><path d="M83 25H133M83 75H133" stroke="#202020" stroke-width="9"/><path class="pipe-fault" d="M80 25L91 36H127L137 25M80 75L91 86H127L137 75M104 36L99 47L109 55L104 65" /></g>}
+   </svg>
+   <span>{cause.label}</span>
+  </button>)}
+ </div>
+ <div class="cause-panels">
+  {causes.map((cause,index)=><article id={`cause-panel-${cause.id}`} class:list={['cause-panel',{'is-active':index===0}]} data-panel={cause.id} aria-hidden={index!==0} inert={index!==0}>
+   <ResponsiveImage src={cause.image} alt={cause.alt} widths={[320,480,640]} quality={62} sizes="(max-width: 760px) calc(100vw - 80px), 280px" loading="lazy" />
+   <div class="cause-panel-copy"><h3>{cause.title}</h3><p>{cause.text}</p><dl><div><dt>What you might notice</dt><dd>{cause.sign}</dd></div><div><dt>What happens next</dt><dd>{cause.next}</dd></div></dl><a href={cause.href}>Explore {cause.label.toLowerCase()}</a></div>
+  </article>)}
+ </div>
+ <p class="explorer-note">These are possible causes, not a diagnosis. Similar symptoms can have different causes; the pipe needs assessment.</p>
+</section>
+<script>
+ for (const explorer of document.querySelectorAll<HTMLElement>('[data-cause-explorer]')) {
+  const choices = [...explorer.querySelectorAll<HTMLButtonElement>('[data-cause]')];
+  const panels = [...explorer.querySelectorAll<HTMLElement>('[data-panel]')];
+  const select = (choice: HTMLButtonElement) => {
+   for (const button of choices) button.setAttribute('aria-pressed',String(button===choice));
+   for (const panel of panels) {
+    const active=panel.dataset.panel===choice.dataset.cause;
+    panel.classList.toggle('is-active',active); panel.setAttribute('aria-hidden',String(!active)); panel.inert=!active;
+   }
+  };
+  for (const choice of choices) {
+   choice.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')select(choice);});
+   choice.addEventListener('focus',()=>select(choice));
+   choice.addEventListener('click',()=>select(choice));
+   choice.addEventListener('keydown',event=>{
+    const index=choices.indexOf(choice);let next=index;
+    if(event.key==='ArrowRight')next=(index+1)%choices.length;
+    else if(event.key==='ArrowLeft')next=(index+choices.length-1)%choices.length;
+    else if(event.key==='Home')next=0;else if(event.key==='End')next=choices.length-1;else return;
+    event.preventDefault();choices[next].focus();
+   });
+  }
+ }
+</script>
+<style>
+.cause-explorer{background:#141414;color:#fff;padding:2rem;margin-top:1.5rem}.explorer-heading{max-width:65ch;margin-bottom:1.5rem}.explorer-heading h2{max-width:27ch}.explorer-heading p{color:#dedbd7;margin:0}
+.cause-controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-bottom:1.5rem}.cause-choice{appearance:none;cursor:pointer;border:1px solid #696360;background:#202020;color:#e6e2df;font:600 .95rem/1.3 var(--body);padding:0 0 1rem;min-width:0;transition:background-color 150ms ease}.cause-choice+ .cause-choice{border-left:0}.cause-choice svg{width:100%;height:95px;display:block}.cause-choice span{display:block;padding:0 .5rem}.cause-choice[aria-pressed=true]{background:#4b2024;color:#fff}.cause-choice[aria-pressed=true]{box-shadow:inset 0 -3px #ff737c}.cause-choice:focus-visible{position:relative;z-index:1;outline:3px solid #ffd45a;outline-offset:3px}.pipe-wall{fill:none;stroke:#aca5a0;stroke-width:6}.pipe-flow{fill:none;stroke:#d8d3ce;stroke-width:2}.pipe-fault{fill:none;stroke:#ff737c;stroke-width:3;stroke-linejoin:round;color:#ff737c}
+.cause-panels{display:grid}.cause-panel{grid-area:1/1;display:grid;grid-template-columns:260px minmax(0,1fr);gap:1.75rem;visibility:hidden;opacity:0;pointer-events:none;transition:opacity 150ms ease}.cause-panel.is-active{visibility:visible;opacity:1;pointer-events:auto}.cause-panel img{width:100%;height:270px;object-fit:cover}.cause-panel-copy h3{font-size:1.6rem;margin:0 0 .75rem;color:white}.cause-panel-copy p{font-size:.95rem;color:#dedbd7}.cause-panel-copy dl{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:0 0 1rem}.cause-panel-copy dt{font-size:.9rem;color:#ff9ba2}.cause-panel-copy dd{font-size:.9rem;color:#dedbd7;margin:.3rem 0 0}.cause-panel-copy a{color:#fff;display:inline-flex;align-items:center;min-height:44px;font-weight:600}.explorer-note{font-size:.85rem!important;color:#c7bfba;margin:1.25rem 0 0;border-top:1px solid #514c49;padding-top:1rem}
+@media(max-width:760px){.cause-explorer{padding:1.5rem}.cause-controls{grid-template-columns:1fr 1fr;gap:.5rem}.cause-choice+ .cause-choice{border-left:1px solid #696360}.cause-choice svg{height:75px}.cause-panel{grid-template-columns:1fr;gap:1rem}.cause-panel img{height:180px}.cause-panel-copy h3{font-size:1.4rem}.cause-panel-copy dl{grid-template-columns:1fr;gap:.8rem}.explorer-heading{margin-bottom:1rem}}
+@media(hover:hover){.cause-choice:hover{background:#4b2024;color:#fff}}
+@media(prefers-reduced-motion:reduce){.cause-panel,.cause-choice{transition:none}}
+</style>

@@ -1,0 +1,14 @@
+[
+  {
+    "width": 375,
+    "hoverOrTap": true,
+    "keyboard": true,
+    "stableHeight": true
+  },
+  {
+    "width": 1294,
+    "hoverOrTap": true,
+    "keyboard": true,
+    "stableHeight": true
+  }
+]

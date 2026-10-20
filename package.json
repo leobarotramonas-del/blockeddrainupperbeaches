@@ -1,0 +1,34 @@
+{
+  "name": "antons-blocked-drains-upper-north-shore-independent",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/prepare-build.mjs && astro check && astro build && npm run check:site && npm run check:links && npm run check:performance && npm run check:worker && npm run check:budgets",
+    "images": "node scripts/optimize-images.mjs",
+    "preview": "astro preview",
+    "check": "astro check",
+    "check:site": "node scripts/check-site.mjs",
+    "check:performance": "node scripts/check-performance.mjs",
+    "check:links": "node scripts/check-internal-links.mjs",
+    "check:responsive": "node scripts/check-responsive.mjs",
+    "check:worker": "node scripts/check-worker.mjs",
+    "check:budgets": "node scripts/check-budgets.mjs",
+    "check:lighthouse": "node scripts/check-lighthouse.mjs",
+    "build:production": "node scripts/build-production.mjs",
+    "deploy": "npm run build:production && npx --yes wrangler@4.151.2 deploy"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@fontsource/barlow": "^5.2.6",
+    "@fontsource/saira-extra-condensed": "^5.2.6",
+    "astro": "^5.13.7",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "lighthouse": "^13.5.0",
+    "playwright-core": "^1.63.0"
+  }
+}

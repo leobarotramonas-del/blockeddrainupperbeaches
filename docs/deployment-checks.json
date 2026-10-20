@@ -1,0 +1,55 @@
+{
+  "url": "https://blockeddrainupperbeaches.antonsplumbingandgas.workers.dev",
+  "checkedAt": "2026-10-20T03:20:30.382Z",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "noindex": "noindex, nofollow",
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/",
+      "upperNorthShore": true
+    },
+    {
+      "route": "/services/cctv-drain-inspections/",
+      "status": 200,
+      "noindex": "noindex, nofollow",
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/cctv-drain-inspections/",
+      "upperNorthShore": true
+    },
+    {
+      "route": "/service-areas/east-killara/",
+      "status": 200,
+      "noindex": "noindex, nofollow",
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/east-killara/",
+      "upperNorthShore": true
+    },
+    {
+      "route": "/404/",
+      "status": 404,
+      "noindex": "noindex, nofollow",
+      "upperNorthShore": true
+    },
+    {
+      "route": "/this-page-does-not-exist/",
+      "status": 404,
+      "noindex": "noindex, nofollow",
+      "upperNorthShore": true
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "noindex": "noindex, nofollow",
+      "upperNorthShore": false
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "noindex": "noindex, nofollow",
+      "upperNorthShore": false
+    }
+  ],
+  "image": {
+    "status": 200,
+    "cache": "public, max-age=31536000, immutable"
+  }
+}

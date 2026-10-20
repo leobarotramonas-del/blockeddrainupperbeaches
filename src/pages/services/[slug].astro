@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import { areas,services } from '../../data/site';
+import { faqSchema } from '../../data/faqs';
+import { serviceGuidance } from '../../data/service-guidance';
+export function getStaticPaths(){return services.map(service=>({params:{slug:service.slug},props:{service}}));}
+const {service}=Astro.props;
+const guide=serviceGuidance[service.slug];
+const faqs=guide.faqs.map(([question,answer])=>({question,answer}));
+const local=areas.filter(a=>guide.areas.includes(a.slug));
+const related=services.filter(s=>guide.related.includes(s.slug));
+const schema=[{'@type':'Service',name:`${service.name} in the Upper North Shore`,description:service.summary,serviceType:service.name,areaServed:local.map(a=>({'@type':'Place',name:`${a.name}, NSW ${a.postcode}`}))},faqSchema(faqs)];
+---
+<BaseLayout title={`${service.name} Upper North Shore`} description={`${service.summary} See professional methods, safe first actions and Upper North Shore access advice.`} schema={schema}>
+<PageHero label="Drain service guide" title={`${service.name} in the Upper North Shore`} intro={service.summary} image={service.image} imageAlt={service.imageAlt}/>
+<section class="section detail-grid"><div><h2>Signs you may notice</h2><ul class="check-list">{service.signs.map(s=><li>{s}</li>)}</ul></div><div><h2>Possible causes</h2><ul class="check-list">{service.causes.map(s=><li>{s}</li>)}</ul><p>Symptoms help narrow the investigation; they do not confirm the cause on their own.</p></div></section>
+<section class="method-panel"><div><h2>Diagnosis before equipment</h2><p>{service.method}</p><p>{guide.suitability}</p></div><div><h2>Tools and materials</h2><ul class="check-list">{service.tools.map(s=><li>{s}</li>)}</ul><p>Selection depends on safe access, the obstruction and the actual pipe condition.</p></div></section>
+<section class="section detail-grid"><div><h2>Safe first actions</h2><p>{guide.safe}</p><p>If wastewater is near electrical equipment, keep clear. Immediate danger needs the appropriate emergency service.</p></div><div><h2>Clearing versus repair</h2><p>{guide.repair}</p><p>After the agreed work, flow is checked where appropriate and the findings, remaining limits and next steps are explained.</p></div></section>
+<section class="section related-section"><h2>Upper North Shore access considerations</h2><p>{guide.local}</p><div class="area-links">{local.map(a=><a href={`/service-areas/${a.slug}/`}>{a.name}<span>{a.postcode}</span></a>)}</div><p>Call with the full address to confirm current coverage. <a href="/service-areas/">See all locality guides</a>.</p></section>
+<FaqSection title={`${service.name}: your questions`} items={faqs}/>
+<section class="section related-section"><h2>Related drain guidance</h2><div class="area-links">{related.map(s=><a href={`/services/${s.slug}/`}>{s.name}</a>)}</div></section>
+<CtaBand title={`Discuss ${service.name.toLowerCase()}`}/>
+</BaseLayout>
