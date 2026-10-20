@@ -1,0 +1,331 @@
+{
+  "checkedAt": "2026-10-20T13:38:49.685Z",
+  "robots": {
+    "status": 200,
+    "body": "User-agent: *\nAllow: /\nSitemap: https://blockeddrainsuppernorthshore.com.au/sitemap.xml\n"
+  },
+  "sitemap": {
+    "status": 200,
+    "count": 35
+  },
+  "pages": [
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/about/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/about/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/contact/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/contact/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/privacy/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/privacy/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/terms/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/terms/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/blocked-toilets/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/blocked-toilets/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/blocked-sinks-showers/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/blocked-sinks-showers/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/sewer-drain-blockages/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/sewer-drain-blockages/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/stormwater-drains/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/stormwater-drains/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/high-pressure-water-jetting/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/high-pressure-water-jetting/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/cctv-drain-inspections/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/cctv-drain-inspections/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/tree-root-blockages/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/tree-root-blockages/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/services/drain-repairs/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/services/drain-repairs/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/hornsby/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/hornsby/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/gordon/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/gordon/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/turramurra/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/turramurra/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/east-lindfield/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/east-lindfield/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/waitara/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/waitara/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/lindfield/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/lindfield/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/roseville/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/roseville/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/killara/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/killara/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/pymble/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/pymble/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/warrawee/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/warrawee/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/north-turramurra/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/north-turramurra/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/st-ives/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/st-ives/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/asquith/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/asquith/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/wahroonga/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/wahroonga/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/east-killara/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/east-killara/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/roseville-chase/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/roseville-chase/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/st-ives-chase/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/st-ives-chase/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/south-turramurra/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/south-turramurra/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/north-wahroonga/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/north-wahroonga/",
+      "ok": true
+    },
+    {
+      "url": "https://blockeddrainsuppernorthshore.com.au/service-areas/west-pymble/",
+      "status": 200,
+      "meta": "<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">",
+      "header": null,
+      "canonical": "https://blockeddrainsuppernorthshore.com.au/service-areas/west-pymble/",
+      "ok": true
+    }
+  ],
+  "redirects": [
+    {
+      "url": "http://www.blockeddrainsuppernorthshore.com.au/robots.txt",
+      "status": 301,
+      "location": "https://blockeddrainsuppernorthshore.com.au/robots.txt",
+      "ok": true
+    },
+    {
+      "url": "http://www.blockeddrainsuppernorthshore.com.au/sitemap.xml",
+      "status": 301,
+      "location": "https://blockeddrainsuppernorthshore.com.au/sitemap.xml",
+      "ok": true
+    },
+    {
+      "url": "http://www.blockeddrainsuppernorthshore.com.au/services/cctv-drain-inspections/?audit=1",
+      "status": 301,
+      "location": "https://blockeddrainsuppernorthshore.com.au/services/cctv-drain-inspections/?audit=1",
+      "ok": true
+    },
+    {
+      "url": "https://www.blockeddrainsuppernorthshore.com.au/robots.txt",
+      "status": 301,
+      "location": "https://blockeddrainsuppernorthshore.com.au/robots.txt",
+      "ok": true
+    },
+    {
+      "url": "https://www.blockeddrainsuppernorthshore.com.au/sitemap.xml",
+      "status": 301,
+      "location": "https://blockeddrainsuppernorthshore.com.au/sitemap.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.blockeddrainsuppernorthshore.com.au/services/cctv-drain-inspections/?audit=1",
+      "status": 301,
+      "location": "https://blockeddrainsuppernorthshore.com.au/services/cctv-drain-inspections/?audit=1",
+      "ok": true
+    }
+  ]
+}

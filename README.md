@@ -4,7 +4,7 @@ Astro static website for Antons Plumbing & Gas. NSW contractor licence 210933C. 
 
 Repository: https://github.com/leobarotramonas-del/blockeddrainupperbeaches
 
-Intended canonical domain: https://blockeddrainsuppernorthshore.com.au
+Canonical domain: https://blockeddrainsuppernorthshore.com.au
 
 Cloudflare Worker: `blockeddrainupperbeaches`. See [deployment record](docs/deployment.md) for the verified public URL and release status. The repository name does not change the approved Upper North Shore branding.
 
@@ -16,7 +16,7 @@ Use Node 22.12 or newer. Run `npm ci`, then `npm run dev`. `npm run build` creat
 
 `npm run build:production` enables canonical-domain indexing and runs all source/build checks. `npm run deploy` performs that build and deploys through pinned Wrangler 4.151.2 using your local Cloudflare authentication. Credentials are never committed.
 
-The public workers.dev hostname always receives `X-Robots-Tag: noindex, nofollow` from worker.mjs. The intended custom domain must be added to the correct Cloudflare account and attached to this Worker before canonical-domain launch. This release does not configure automatic deployment on GitHub push.
+The public workers.dev hostname always receives `X-Robots-Tag: noindex, nofollow` from worker.mjs. The canonical custom domain is connected. HTTP and HTTPS www requests redirect permanently to the HTTPS canonical domain, preserving paths and query strings. Both routes are recorded in wrangler.jsonc. This release does not configure automatic deployment on GitHub push.
 
 ## Verification
 

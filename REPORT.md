@@ -72,5 +72,5 @@ Services now have a pale red background. Four schematic pipe controls reveal rel
 Updated preview Lighthouse: home performance 90, accessibility 100; service performance 100, accessibility 100; locality performance 99, accessibility 100. SEO remains restricted by intentional noindex.
 
 ## Publication update, 20 October 2026
-The user authorised GitHub commit and deployment. The earlier local-only launch status is superseded by docs/deployment.md and docs/deployment-checks.json. Public Worker: blockeddrainupperbeaches. Custom-domain routing remains unconfigured because the domain is absent from the authenticated account.
+The user authorised GitHub commit and deployment. The earlier local-only launch status is superseded by docs/deployment.md and docs/deployment-checks.json. Public Worker: blockeddrainupperbeaches. The canonical domain is now connected. A subsequent www routing fix and full indexability verification are recorded in docs/deployment.md and docs/indexability-checks.json.
 
