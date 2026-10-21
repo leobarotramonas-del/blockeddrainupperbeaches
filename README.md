@@ -22,7 +22,7 @@ The public workers.dev hostname always receives `X-Robots-Tag: noindex, nofollow
 
 Build runs Astro diagnostics, all-page metadata/schema/alt-text checks, internal-link checks, asset budgets and Worker behaviour tests. `npm run check:responsive` tests eight routes at five viewport widths using Chrome. `npm run check:lighthouse` checks home, service and locality pages. Browser scripts use http://127.0.0.1:4388/ and the standard Windows Chrome path.
 
-Site facts and service copy live in src/data/site.ts; locality guidance in src/data/areas.ts; service guidance in src/data/service-guidance.ts. CauseExplorer.astro owns the interactive pipe diagram. Photos have descriptive alt text, with no visible photo captions. No analytics or form-submission service is active.
+Site facts and service copy live in src/data/site.ts; locality guidance in src/data/areas.ts; service guidance in src/data/service-guidance.ts. CauseExplorer.astro owns the interactive pipe diagram. Photos have descriptive alt text, with no visible photo captions. Google Analytics uses measurement ID G-LB35W8R8W8 in production, including the existing telephone-link click events. No form-submission service is active.
 
 ## Dependency assessment
 

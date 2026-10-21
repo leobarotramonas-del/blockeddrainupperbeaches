@@ -5,7 +5,7 @@ export const site = {
   licence: '210933C',
   phoneDisplay: '0493 824 176',
   phoneHref: 'tel:+61493824176',
-  analyticsId: '',
+  analyticsId: 'G-LB35W8R8W8',
   hours: '24 hours, 7 days a week',
   region: "Sydney's Upper North Shore, NSW",
   url: 'https://blockeddrainsuppernorthshore.com.au',
