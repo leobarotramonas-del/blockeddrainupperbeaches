@@ -49,5 +49,40 @@
     "cls": 0,
     "imageSavingsKiB": 8,
     "remainingAnalyticsUnusedJavaScriptKiB": 73
+  },
+  "followUp": {
+    "checkedAt": "2026-10-21T05:42:33.029Z",
+    "deployment": "a254b8e9-7b11-4c71-931d-954388268399",
+    "source": "Remote PageSpeed Insights mobile",
+    "reportUrl": "https://pagespeed.web.dev/analysis/https-blockeddrainsuppernorthshore-com-au/4acafztpa6?form_factor=mobile",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "fcpSeconds": 0.9,
+      "lcpSeconds": 1.4,
+      "tbtMs": 0,
+      "cls": 0.007,
+      "speedIndexSeconds": 1.5
+    },
+    "cleared": [
+      "image delivery",
+      "unused JavaScript",
+      "font dependency warning"
+    ],
+    "analytics": "Live isolated browser: one page_view, phone_call_click and generate_lead; early click queue verified; collection intercepted; worker present; no page errors.",
+    "indexablePublicPages": 35,
+    "rootsImage": {
+      "beforeBytes": 45767,
+      "afterBytes": 32254
+    },
+    "limitations": [
+      "Lab scores vary; no real-user field data available.",
+      "Partytown retains the GA download and adds worker assets.",
+      "Page-exit user_engagement can be less reliable in the worker."
+    ]
   }
 }

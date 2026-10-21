@@ -1,9 +1,10 @@
 ---
 import '@fontsource/barlow/latin-400.css';
-import '@fontsource/barlow/latin-600.css';
+
 import '@fontsource/barlow/latin-700.css';
 import '@fontsource/saira-extra-condensed/latin-700.css';
 import bodyFont from '@fontsource/barlow/files/barlow-latin-400-normal.woff2?url';
+import boldFont from '@fontsource/barlow/files/barlow-latin-700-normal.woff2?url';
 import headingFont from '@fontsource/saira-extra-condensed/files/saira-extra-condensed-latin-700-normal.woff2?url';
 import '../styles/global.css';
 
@@ -46,6 +47,7 @@ const structuredData = pageSchema(baseUrl, canonicalPath, pageTitle, description
     <meta name="geo.region" content="AU-NSW" />
     <meta name="geo.placename" content="The Upper North Shore, New South Wales" />
     <link rel="preload" href={bodyFont} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={boldFont} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={headingFont} as="font" type="font/woff2" crossorigin />
     <link rel="icon" type="image/png" sizes="150x150" href="/favicon-antons.png" />
     <link rel="apple-touch-icon" sizes="300x300" href="/apple-touch-icon.png" />
@@ -65,8 +67,8 @@ const structuredData = pageSchema(baseUrl, canonicalPath, pageTitle, description
     {!noindex && <><link rel="canonical" href={canonical} /><link rel="alternate" hreflang="en-AU" href={canonical} /><link rel="alternate" hreflang="x-default" href={canonical} /></>}
     {enableAnalytics && (
       <>
-        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}`}></script>
-        <script is:inline define:vars={{ analyticsId: site.analyticsId }}>
+        <script is:inline type="text/partytown" src={`https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}`}></script>
+        <script is:inline type="text/partytown" define:vars={{ analyticsId: site.analyticsId }}>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           window.gtag = gtag;

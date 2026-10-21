@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/partytown": "2.1.8",
     "@fontsource/barlow": "^5.2.6",
     "@fontsource/saira-extra-condensed": "^5.2.6",
     "astro": "^5.13.7",

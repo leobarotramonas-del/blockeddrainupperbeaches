@@ -5,6 +5,7 @@ for(const input of ['http://blockeddrainsuppernorthshore.com.au/services/?x=1','
 assert.equal((await worker.fetch(new Request('https://blockeddrainsuppernorthshore.com.au/404/'),env)).status,404);
 assert.equal((await worker.fetch(new Request('https://blockeddrainsuppernorthshore.com.au/missing/'),env)).status,404);
 assert.equal((await worker.fetch(new Request('https://preview.example.com/'),env)).headers.get('x-robots-tag'),'noindex, nofollow');
+assert.equal((await worker.fetch(new Request('https://blockeddrainsuppernorthshore.com.au/~partytown/partytown-sandbox-sw.html'),env)).headers.get('x-robots-tag'),'noindex, nofollow');
 console.log('Worker redirect path/query preservation, explicit and missing 404, and preview noindex tests passed. Live Cloudflare verification still required.');
 
 const notFound=await worker.fetch(new Request('https://blockeddrainsuppernorthshore.com.au/404/'),env);assert.equal(await notFound.text(),'/__antons-not-found__/');assert.equal(notFound.headers.get('location'),null);

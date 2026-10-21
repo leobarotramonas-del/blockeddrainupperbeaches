@@ -6,6 +6,7 @@ const origin = 'https://blockeddrainsuppernorthshore.com.au';
 const htmlFiles = [];
 const walk = (dir) => fs.readdirSync(dir, { withFileTypes: true }).forEach((entry) => {
   const file = path.join(dir, entry.name);
+  if (file === path.join(root, '~partytown')) return; // Vendor worker sandbox, not a public content page.
   if (entry.isDirectory()) walk(file); else if (entry.name.endsWith('.html')) htmlFiles.push(file);
 });
 walk(root);
