@@ -24,7 +24,7 @@ const causes = [
  </div>
  <div class="cause-panels">
   {causes.map((cause,index)=><article id={`cause-panel-${cause.id}`} class:list={['cause-panel',{'is-active':index===0}]} data-panel={cause.id} aria-hidden={index!==0} inert={index!==0}>
-   <ResponsiveImage src={cause.image} alt={cause.alt} widths={[320,480,640]} quality={62} sizes="(max-width: 760px) calc(100vw - 80px), 280px" loading="lazy" />
+   <ResponsiveImage src={cause.image} alt={cause.alt} widths={[320,480,640]} quality={28} sizes="(max-width: 760px) calc(100vw - 80px), 280px" loading="lazy" />
    <div class="cause-panel-copy"><h3>{cause.title}</h3><p>{cause.text}</p><dl><div><dt>What you might notice</dt><dd>{cause.sign}</dd></div><div><dt>What happens next</dt><dd>{cause.next}</dd></div></dl><a href={cause.href}>Explore {cause.label.toLowerCase()}</a></div>
   </article>)}
  </div>

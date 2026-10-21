@@ -1,0 +1,53 @@
+{
+  "localLighthouse": {
+    "checkedAt": "2026-10-21T04:18:35.860Z",
+    "scores": {
+      "performance": 59,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "score": 0.85,
+        "value": "2.0 s"
+      },
+      "largest-contentful-paint": {
+        "score": 0.5,
+        "value": "4.0 s"
+      },
+      "total-blocking-time": {
+        "score": 0.11,
+        "value": "1,680 ms"
+      },
+      "cumulative-layout-shift": {
+        "score": 1,
+        "value": "0.007"
+      },
+      "image-delivery-insight": {
+        "score": 0.5,
+        "value": "Est savings of 8 KiB"
+      },
+      "cache-insight": {
+        "score": 1
+      },
+      "legacy-javascript-insight": {
+        "score": 1
+      }
+    }
+  },
+  "pageSpeedInsights": {
+    "url": "https://pagespeed.web.dev/analysis/https-blockeddrainsuppernorthshore-com-au/p63lzgvhvs?form_factor=mobile",
+    "testedAt": "2026-10-21T12:19:23+08:00",
+    "performance": 79,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "fcpSeconds": 2.8,
+    "lcpSeconds": 4,
+    "tbtMilliseconds": 100,
+    "cls": 0,
+    "imageSavingsKiB": 8,
+    "remainingAnalyticsUnusedJavaScriptKiB": 73
+  }
+}
