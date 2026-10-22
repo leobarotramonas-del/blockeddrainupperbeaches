@@ -32,7 +32,9 @@ for (const file of htmlFiles) {
   if(titles.has(titleValue)||descriptions.has(descValue)) errors.push(relative+': duplicate metadata');
   titles.add(titleValue);descriptions.add(descValue);
   if(!allowIndexing&&!html.includes('noindex,nofollow')) errors.push(relative+': missing preview noindex');
-  if(/Lower North Shore|drain-hero__note|Antons Enterprises|—|25\+|25 years|Hills District/.test(html)) errors.push(relative+': forbidden or inherited copy');
+  // Approved editorial articles can name another service region in contextual links.
+  const editorialArticle = html.includes('class="w1-article"');
+  if(/drain-hero__note|Antons Enterprises|—|25\+|25 years|Hills District/.test(html) || (!editorialArticle && /Lower North Shore/.test(html))) errors.push(relative+': forbidden or inherited copy');
   const count = (pattern) => [...html.matchAll(pattern)].length;
   if (!is404) {
     if (allowIndexing) expectedUrls.push(expected);
