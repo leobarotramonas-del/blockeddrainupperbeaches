@@ -42,7 +42,7 @@ export const pageFaqs = {
     { question: 'Who provides the licensed drainage service?', answer: `${site.operator} provides the service under NSW contractor licence ${site.licence}.` },
   ],
   about: [
-    { question: 'Who is Antons Blocked Drains Upper North Shore?', answer: `It is the Upper North Shore blocked-drain service provided by ${site.operator}, focused on professional drain diagnosis, clearing and repair.` },
+    { question: 'Who is Antons Blocked Drains Upper North Shore?', answer: `${site.name} provides local drain diagnosis, clearing, CCTV inspections, water jetting and repairs. The service is operated by ${site.operator}.` },
     { question: 'How is the work explained?', answer: 'The team explains the accessible evidence, proposed clearing method and any separate repair scope before agreed work proceeds.' },
     { question: 'Are you licensed?', answer: `Regulated work is performed under NSW contractor licence ${site.licence}.` },
     { question: 'What makes a professional drain assessment different?', answer: 'A professional assessment considers symptoms, access, pipe condition and the possibility of a deeper fault before selecting equipment. That reduces guesswork and helps separate temporary clearing from a lasting repair.' },
