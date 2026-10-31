@@ -601,5 +601,123 @@
     "site": 7,
     "serviceSlug": "drain-repairs",
     "photo": 42
+  },
+  {
+    "site": 7,
+    "seoTitle": "Drain Repair Beside a Retaining Wall: Before Digging",
+    "category": "Drain repairs",
+    "serviceSlug": "drain-repairs",
+    "photo": 43,
+    "description": "Repairing a drain beside a retaining wall? Check buried services, wall support and excavation access before work on the Upper North Shore.",
+    "imageAlt": "Exposed drainage pipe within an excavation beside masonry",
+    "caption": "A pipe repair near masonry needs a plan that considers the surrounding structure and buried services.",
+    "introduction": "<p>Before digging for a drain repair beside a retaining wall, establish the pipe’s route and likely depth, nearby services and how excavation could affect the wall’s support. Locating the blockage is only one part of the job. Do not expose the footing or remove supporting soil yourself.</p>",
+    "takeaways": [
+      "Identify which drain is faulty before planning excavation.",
+      "A pipe location does not show every buried service or wall footing.",
+      "Work near a retaining wall may need structural advice.",
+      "Agree access, repair and reinstatement before opening the ground."
+    ],
+    "body": "<h2 id=\"identify-the-drain-you-are-actually-repairing\">Identify the drain you are actually repairing</h2><p>A wet area beside a wall can involve surface runoff, a stormwater pipe, sewer drainage or the wall’s own drainage arrangement. These are different systems. Explain when the water appears, whether it smells and which fixtures or outdoor areas are affected.</p><p>Existing plans and inspection findings help establish the line involved. If a camera has been used, ask which section was reached and where the defect was observed. A nearby tree or a damp patch does not establish the exact pipe fault or justify digging at the base of the wall.</p><h2 id=\"locate-more-than-the-damaged-pipe\">Locate more than the damaged pipe</h2><p>For <a href=\"/services/drain-repairs/\">drain repairs on the Upper North Shore</a>, the working area must be assessed as a whole. Water, gas, electrical and communication services may share the area. Private services or later alterations may also need investigation beyond the available records.</p><p><a href=\"https://www.safework.nsw.gov.au/hazards-a-z/excavations-and-earthmoving-plant-in-construction\">SafeWork NSW’s excavation guidance</a> highlights essential service checks and ground-related excavation risks. Provide drawings and known service details to the contractor, but do not treat a line on a plan as permission to start digging.</p><h3 id=\"pipe-depth-is-not-the-same-as-footing-depth\">Pipe depth is not the same as footing depth</h3><p>A drain location does not establish the shape or depth of the retaining wall’s foundations. Soil around the wall may be contributing to its support. The proposed excavation needs to account for the wall and the ground it holds back, not only the space needed to replace a pipe.</p><h2 id=\"know-when-the-wall-changes-the-repair-plan\">Know when the wall changes the repair plan</h2><p>Tell the contractor about leaning, cracking, movement or earlier wall repairs. Do not approach an unstable wall to take a close-up photo. Keep people away from an area that appears unsafe and explain the concern when booking.</p><p>Where the excavation could affect support, appropriate structural advice may be needed before a method is settled. Ask who is assessing that issue and whether their work is included. A plumbing quote should not be interpreted as a structural assessment unless that service is expressly part of the scope.</p><h2 id=\"allow-for-access-and-a-safe-work-area\">Allow for access and a safe work area</h2><p>A narrow side passage or sloping garden can limit equipment access and the space for removed material. The contractor needs to decide where equipment and spoil can be placed safely. Do not stack paving or garden materials beside the proposed opening to “get ready”.</p><ul><li>Show gates, steps and the route to the work area.</li><li>Explain whether the wall is shared or close to a boundary.</li><li>Provide any wall plans or previous engineering information.</li><li>Arrange the necessary access permissions before the visit.</li></ul><h2 id=\"compare-a-repair-scope-that-includes-the-surroundings\">Compare a repair scope that includes the surroundings</h2><p>Ask what supports the proposed repair method and what remains uncertain. A local repair may be suitable for an isolated defect; a longer replacement may be considered if more pipe is damaged. Neither can be chosen responsibly from the wall’s appearance alone.</p><p>The quote should distinguish locating, excavation, pipe work, completion checks and restoration. If wall drainage, landscaping or structural work is outside the plumbing scope, make that explicit. Agree who authorises any changed work if the exposed conditions differ from the investigation.</p><h2 id=\"keep-a-record-before-the-ground-is-closed\">Keep a record before the ground is closed</h2><p>Ask for useful photos and a record of the repaired pipe position. Keep any structural advice and repair documentation together. Future garden work is easier to plan when the next person knows what was repaired and where, rather than relying on the position of a patch of new soil.</p>",
+    "check": [
+      "Is the drain location enough to start digging?",
+      "No. Confirm nearby services, the wall’s support and the excavation method as well. If the work may affect the wall, establish what structural input is needed before proceeding."
+    ],
+    "faqs": [
+      [
+        "Does a camera inspection locate the wall footing?",
+        "No. It shows the accessible inside of the drain. It does not establish the retaining wall’s foundation dimensions or condition."
+      ],
+      [
+        "Can I dig a small hole beside the wall first?",
+        "Do not remove supporting soil or expose a footing yourself. The excavation method needs assessment of the wall, ground and services."
+      ],
+      [
+        "Is water beside the wall always a broken sewer?",
+        "No. Surface water, stormwater and wall drainage can also be involved. The timing and system layout need investigation."
+      ],
+      [
+        "Do service plans show every private pipe?",
+        "Do not assume they do. Give the contractor all available records and disclose later alterations so additional locating can be considered."
+      ],
+      [
+        "Will the wall need an engineer?",
+        "That depends on how the proposed work could affect it. Ask the contractor to identify when structural advice is needed and who will arrange it."
+      ],
+      [
+        "What if the wall is already leaning?",
+        "Keep clear of the potentially unsafe area and tell the contractor promptly. Do not excavate or attempt a temporary support yourself."
+      ],
+      [
+        "Can a pipe be repaired without digging?",
+        "Some defects may have alternatives, but suitability depends on pipe condition, layout and access. Do not assume an alternative will address wall-related issues."
+      ],
+      [
+        "Who should approve work near a shared wall?",
+        "Resolve ownership, access and any required permissions before planned work. A boundary position should not be treated as automatic consent."
+      ],
+      [
+        "Is landscaping included in the drain repair quote?",
+        "Only if specified. Ask separately about soil, paving, planting and any wall or drainage restoration."
+      ],
+      [
+        "What records are useful after repair?",
+        "Keep the repaired pipe location, photos, completion findings and any structural advice for future maintenance or landscaping."
+      ]
+    ],
+    "conclusion": "A drain beside a retaining wall needs more than a marked pipe location. Establish the surrounding services and structural constraints, then agree a safe repair and restoration plan.",
+    "ctaAnchor": "drain repair assessment on the Upper North Shore",
+    "ctaTail": "Tell us where the drain runs and share any inspection or wall records you have. Give us a call to discuss the next investigation step.",
+    "id": "W02-08-3",
+    "title": "Repairing a Drain Beside a Retaining Wall: What Needs Locating Before Digging?",
+    "slug": "repairing-a-drain-beside-a-retaining-wall-what-needs-locating-before-digging",
+    "date": "2026-10-31",
+    "updatedDate": "2026-10-31",
+    "indexPath": "/blog/",
+    "path": "/blog/repairing-a-drain-beside-a-retaining-wall-what-needs-locating-before-digging/",
+    "service": "/services/drain-repairs",
+    "serviceURL": "/services/drain-repairs/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "identify-the-drain-you-are-actually-repairing",
+        "label": "Identify the drain you are actually repairing"
+      },
+      {
+        "depth": 2,
+        "id": "locate-more-than-the-damaged-pipe",
+        "label": "Locate more than the damaged pipe"
+      },
+      {
+        "depth": 3,
+        "id": "pipe-depth-is-not-the-same-as-footing-depth",
+        "label": "Pipe depth is not the same as footing depth"
+      },
+      {
+        "depth": 2,
+        "id": "know-when-the-wall-changes-the-repair-plan",
+        "label": "Know when the wall changes the repair plan"
+      },
+      {
+        "depth": 2,
+        "id": "allow-for-access-and-a-safe-work-area",
+        "label": "Allow for access and a safe work area"
+      },
+      {
+        "depth": 2,
+        "id": "compare-a-repair-scope-that-includes-the-surroundings",
+        "label": "Compare a repair scope that includes the surroundings"
+      },
+      {
+        "depth": 2,
+        "id": "keep-a-record-before-the-ground-is-closed",
+        "label": "Keep a record before the ground is closed"
+      }
+    ],
+    "words": 1065,
+    "image": "/images/blog-w02-08-3-featured.webp",
+    "width": 640,
+    "height": 854
   }
 ]
