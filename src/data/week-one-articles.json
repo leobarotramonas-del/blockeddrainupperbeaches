@@ -1068,5 +1068,118 @@
     "image": "/images/blog-w03-08-3-featured.webp",
     "width": 640,
     "height": 854
+  },
+  {
+    "site": 7,
+    "category": "Drain repairs",
+    "serviceSlug": "drain-repairs",
+    "photo": 39,
+    "seoTitle": "Tree Roots Return in Hornsby Sewer | Camera Check",
+    "description": "Tree roots keep returning to a Hornsby sewer? A camera check should locate the entry point and show whether clearing or repair is needed.",
+    "imageAlt": "Damaged clay drain pipe with tree roots",
+    "caption": "Roots can return when the opening into a pipe remains unrepaired.",
+    "introduction": "<p>If roots return to a Hornsby sewer soon after clearing, a camera inspection should locate where they enter and show the pipe condition around that point. Removing the roots may restore flow but does not seal an open joint or crack. Ask for recorded findings before choosing another clearing visit, relining or excavation.</p>",
+    "takeaways": [
+      "Keep previous clearing and camera records.",
+      "Ask where roots enter, not only how much was removed.",
+      "Separate restored flow from a permanent pipe repair.",
+      "Compare repair methods against the confirmed defect and access."
+    ],
+    "faqs": [
+      [
+        "Will cutting roots stop them returning?",
+        "Not if the opening into the pipe remains."
+      ],
+      [
+        "Does a tree directly above the line cause every blockage?",
+        "No. Locate the actual entry point before attributing cause."
+      ],
+      [
+        "Can a camera pass a blocked pipe?",
+        "A complete obstruction may need clearing before useful footage is possible."
+      ],
+      [
+        "What should footage show?",
+        "Ask for the entry point, nearby pipe condition and location."
+      ],
+      [
+        "Is relining always possible?",
+        "No. Suitability depends on defect type, shape, access and connections."
+      ],
+      [
+        "Will excavation damage the tree?",
+        "The route and root zone need assessment before a method is chosen."
+      ],
+      [
+        "Should I keep past reports?",
+        "Yes. Repeat intervals and older footage help compare the fault."
+      ],
+      [
+        "Does restored flow mean the crack is fixed?",
+        "No. Clearing and structural repair are separate work."
+      ],
+      [
+        "What should a quote identify?",
+        "The confirmed defect, repair length, access and reinstatement."
+      ],
+      [
+        "How is completion checked?",
+        "Ask for the agreed inspection and flow checks after the work."
+      ]
+    ],
+    "conclusion": "Recurring roots need evidence of the entry point and pipe condition. A clear camera report lets you compare lasting repair options against the real fault.",
+    "ctaAnchor": "Hornsby drain repair service",
+    "ctaTail": "Call Blocked Drains Upper North Shore with the previous clearing dates and any footage.",
+    "body": "<h2 id=\"explain-the-pattern-of-repeat-blockages\">Explain the pattern of repeat blockages</h2><p>Tell the plumber how soon symptoms returned, which fixtures are affected and whether earlier work included a camera check. Roots can grow back through a remaining opening; deposits may also collect around a displaced joint. Do not assume every nearby tree caused the fault. The pipe route and actual entry point matter more than guessing from the garden canopy.</p><h2 id=\"use-the-camera-to-answer-specific-questions\">Use the camera to answer specific questions</h2><p>After suitable clearing, footage may show a crack, offset joint, broken section or other restriction. Ask for the distance from the access point, the location marked on site if possible, and images of the surrounding pipe. If the camera could not pass or the view was obscured, say so in the report. Footage should distinguish a confirmed defect from a suspected one; it cannot establish the health of every metre that was not visible.</p><h2 id=\"consider-access-and-surrounding-roots\">Consider access and surrounding roots</h2><p>A drain near a mature tree, retaining wall or paved area needs careful planning before excavation is proposed. Explain where machinery can enter, whether a line runs beneath a structure and what reinstatement would involve. Relining may suit some defects but not every collapsed or badly displaced section. The decision should follow the camera finding and the pipe's suitability, not a blanket promise that all roots can be solved without digging.</p><h2 id=\"compare-the-repair-scope\">Compare the repair scope</h2><p>Ask what part of the line is to be repaired, how junctions will be treated and how flow will be checked afterwards. A quote should describe access, the chosen method and reinstatement if ground is opened. Keep the before and after footage with your property records. NSW's <a href=\"https://www.nsw.gov.au/housing-and-construction/compliance-and-regulation/plumbers-and-drainers/standards-and-notes/use-of-flexible-joints-drains\">drainage guidance</a shows why joint details matter in sanitary drainage, though the applicable repair design must be assessed for the actual pipe.</p><h2 id=\"separate-roots-from-pipe-movement\">Separate roots from pipe movement</h2><p>The camera may show roots at a joint, but the repair choice also depends on whether that joint has shifted and how the surrounding pipe is shaped. Ask the plumber to explain the full visible condition, including any low points or breaks. A neatly cut root does not restore the joint seal. Equally, a single visible root does not justify replacing an entire line without evidence of wider damage.</p><h2 id=\"plan-future-access\">Plan future access</h2><p>If a section is repaired, keep a location record showing where the work occurred and which inspection points remain usable. Avoid burying access beneath new paving or fixed garden structures. Discuss any remaining roots seen outside the repaired length and whether monitoring is useful. The aim is to make the next maintenance decision easier, even if the entire older line is not replaced.</p>",
+    "check": [
+      "Before booking",
+      "Write down the main symptom, when it began, who can approve access and any previous repair findings. Keep people clear of water or equipment that may be unsafe."
+    ],
+    "id": "W04-08-1",
+    "title": "Tree Roots Return in a Hornsby Sewer: What Must a Camera Check Prove?",
+    "slug": "tree-roots-return-in-a-hornsby-sewer-what-must-a-camera-check-prove",
+    "date": "2026-11-09",
+    "updatedDate": "2026-11-09",
+    "indexPath": "/blog/",
+    "path": "/blog/tree-roots-return-in-a-hornsby-sewer-what-must-a-camera-check-prove/",
+    "service": "/services/drain-repairs",
+    "serviceURL": "/services/drain-repairs/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "explain-the-pattern-of-repeat-blockages",
+        "label": "Explain the pattern of repeat blockages"
+      },
+      {
+        "depth": 2,
+        "id": "use-the-camera-to-answer-specific-questions",
+        "label": "Use the camera to answer specific questions"
+      },
+      {
+        "depth": 2,
+        "id": "consider-access-and-surrounding-roots",
+        "label": "Consider access and surrounding roots"
+      },
+      {
+        "depth": 2,
+        "id": "compare-the-repair-scope",
+        "label": "Compare the repair scope"
+      },
+      {
+        "depth": 2,
+        "id": "separate-roots-from-pipe-movement",
+        "label": "Separate roots from pipe movement"
+      },
+      {
+        "depth": 2,
+        "id": "plan-future-access",
+        "label": "Plan future access"
+      }
+    ],
+    "words": 761,
+    "image": "/images/blog-w04-08-1-featured.webp",
+    "width": 640,
+    "height": 854
   }
 ]
