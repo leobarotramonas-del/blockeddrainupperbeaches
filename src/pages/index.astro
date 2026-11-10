@@ -2,23 +2,16 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
 import CtaBand from '../components/CtaBand.astro';
-import CauseExplorer from '../components/CauseExplorer.astro';
-import { areas, faqs, reviews, services, site } from '../data/site';
-
-const schema = {
-  '@context': 'https://schema.org', '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
-};
-
-const journey = [
-  { title: 'Describe the symptoms', text: 'Tell us which fixtures are affected, what happens when water is used and whether anything is overflowing.' },
-  { title: 'Find the restriction', text: 'We inspect the accessible drain and decide whether mechanical clearing, jetting or another method suits the line.' },
-  { title: 'Confirm the cause', text: 'Where recurrence or damage is suspected, CCTV and locating equipment can show what is happening and where.' },
-  { title: 'Separate clearing from repair', text: 'Removing an obstruction restores flow. Repairing a crack, displaced joint or poor fall is a separate scope informed by evidence.' },
-  { title: 'Check the result', text: 'Test flow at the relevant fixtures and discuss any remaining restriction, inspection limitations or follow-up needed.' },
-  { title: 'Plan prevention', text: 'Discuss what belongs out of the drain, suitable maintenance and whether a located structural defect needs repair.' },
+import ProjectShowcase from '../components/ProjectShowcase.astro';
+import { projectSchema, selectProjects } from '../data/projects';
+import { areas, faqs, reviews, site } from '../data/site';
+const homeFaqs = [faqs[3], faqs[5]];
+const projects = selectProjects(['sewer-clearing','drain-pipework-installation','restricted-access-excavation']);
+const homeServices = [{"slug": "blocked-toilets", "name": "Blocked toilets", "summary": "Rising water, gurgling or repeated toilet blockages."}, {"slug": "blocked-sinks-showers", "name": "Sinks and showers", "summary": "Slow kitchen, bathroom and laundry wastes."}, {"slug": "sewer-drain-blockages", "name": "Sewer drains", "summary": "Wastewater backup affecting connected fixtures or gullies."}, {"slug": "stormwater-drains", "name": "Stormwater drains", "summary": "Pits, downpipes and outdoor drainage after rain."}, {"slug": "high-pressure-water-jetting", "name": "Water jetting", "summary": "Controlled cleaning for suitable obstructions and pipework."}, {"slug": "cctv-drain-inspections", "name": "CCTV inspections", "summary": "Internal pipe findings to investigate recurring faults."}, {"slug": "tree-root-blockages", "name": "Tree roots", "summary": "Root removal and assessment of the entry point."}, {"slug": "drain-repairs", "name": "Drain repairs", "summary": "Located damage, repair access and reinstatement planning."}];
+const schema = [
+  { '@type': 'FAQPage', mainEntity: homeFaqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) },
+  ...projectSchema(projects, '/'),
 ];
-
 ---
 <BaseLayout title="Blocked Drains Upper North Shore | Antons Blocked Drains" description="Blocked drains on the Upper North Shore? Antons offers drain clearing, CCTV inspections, water jetting and repairs. Urgent calls answered 24/7." schema={schema}>
   <div class="drain-home">
@@ -35,63 +28,42 @@ const journey = [
         <ResponsiveImage src="/images/blocked-drains.webp" alt="Drain plumber using high-pressure drain-clearing equipment at an outdoor access point" widths={[360, 480, 720]} quality={28} sizes="(max-width: 760px) calc(100vw - 2rem), (max-width: 1300px) 58vw, 760px" loading="eager" fetchpriority="high" />
       </figure>
     </section>
-
     <section class="urgent-strip" aria-label="Immediate blocked drain advice">
-      <strong>Overflowing now?</strong><p>Stop using connected fixtures. Keep people and pets away from wastewater. Avoid chemical cleaners. For sewage, widespread backup or electrical hazards, keep clear and <a href={site.phoneHref}>call for advice</a>. Urgent calls are taken 24/7; an immediate danger needs emergency services.</p>
+      <strong>Overflowing now?</strong><p>Stop using connected fixtures. Keep people and pets away from wastewater and avoid chemical cleaners. Stay clear of water near electrical equipment.</p><a href={site.phoneHref}>Call {site.phoneDisplay}</a>
     </section>
-
-    <section class="drain-section symptom-section" aria-labelledby="symptoms-title">
-      <div class="section-heading"><h2 id="symptoms-title">Start with what the drain is doing.</h2><p>You do not need to diagnose the fault. Choose the symptom closest to yours and see how a professional assessment narrows down the cause.</p></div>
-      <div class="symptom-list">
-        <a href="/services/blocked-toilets/"><h3>A toilet rises or gurgles</h3><p>One affected toilet can indicate a trap or branch restriction. Do not flush again to test it.</p><strong>Understand toilet blockages</strong></a>
-        <a href="/services/blocked-sinks-showers/"><h3>Sinks and showers empty slowly</h3><p>Hair, soap or grease may restrict one waste. Several slow fixtures suggest looking further along the line.</p><strong>Trace slow wastes</strong></a>
-        <a href="/services/sewer-drain-blockages/"><h3>A floor waste or gully overflows</h3><p>Wastewater returning at a low point can indicate a shared or main-line blockage. Stop connected water use.</p><strong>Recognise sewer symptoms</strong></a>
-        <a href="/services/stormwater-drains/"><h3>Pits hold water after rain</h3><p>Silt, leaves or a downstream fault may be involved. Recurring ponding needs a route and outlet assessment.</p><strong>Investigate stormwater</strong></a>
-      </div>
+    <section class="drain-section home-services" aria-labelledby="services-title">
+      <div class="section-heading"><h2 id="services-title">Find the Right Drain Service</h2><p>Start with what you can see: a slow waste, rising toilet water or a pit that stays full. We choose the investigation and equipment for the actual drain.</p></div>
+      <div class="home-service-index">{homeServices.map(service => <a href={'/services/'+service.slug+'/'}><h3>{service.name}</h3><p>{service.summary}</p></a>)}</div>
+      <a href="/services/">Compare the drain services</a>
     </section>
-
-    <section class="drain-section services-highlight"><div class="section-heading"><h2>Find the right drain service.</h2><p>Start with the problem, or explore the equipment used to diagnose and resolve it.</p><a href="/services/">Browse the service guide</a></div><div class="service-list">{services.map((service)=><a class="service-row" href={`/services/${service.slug}/`}><h3>{service.name}</h3><p>{service.summary}</p></a>)}</div></section>
-    <CauseExplorer />
-
-    <section class="equipment-section" aria-labelledby="equipment-title">
-      <div class="equipment-photo"><ResponsiveImage src="/images/drain-camera-inspection.webp" alt="CCTV drain camera and monitor used to inspect underground pipework" widths={[480, 768, 1000]} sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" /></div>
-      <div class="equipment-copy">
-        <h2 id="equipment-title">Professional tools turn guesswork into evidence.</h2>
-        <p>Our licensed drain plumbers select equipment for the symptom, access and condition of the pipe, not simply the most forceful tool on the vehicle.</p>
-        <dl><div><dt>Toilet-safe and mechanical tools</dt><dd>For accessible fixture or branch obstructions where controlled retrieval or clearing suits the material.</dd></div><div><dt>Wet extraction and excavation tools</dt><dd>For suitable pit sediment or access to a located failed section. Safe access and the surrounding services determine the approach.</dd></div>
-          <div><dt>High-pressure water jetter</dt><dd>Uses controlled water and purpose-selected nozzles to remove suitable roots, grease, silt and deposits.</dd></div>
-          <div><dt>CCTV drain camera</dt><dd>Shows accessible internal pipe conditions after flow and visibility are established.</dd></div>
-          <div><dt>Electronic locator</dt><dd>Relates a camera finding to a position and approximate depth at the surface for targeted repair planning.</dd></div>
-          <div><dt>Drain-repair materials</dt><dd>Compatible PVC drainage pipe, fittings, bedding and backfill are selected for the line and agreed repair scope.</dd></div>
-        </dl>
-        <a class="home-button home-button--blue" href="/services/">Explore Tools &amp; Methods</a> <a class="home-text-link" href="/contact/">Ask about your drain</a>
-      </div>
+    <ProjectShowcase items={projects} title="Recent drainage projects on the Upper North Shore and across Sydney" intro="Examples from the Antons team's Sydney work show the equipment, access and pipework behind a drainage job. The photographs show work underway on completed projects." />
+    <section class="drain-section home-visit" aria-labelledby="visit-title">
+      <div><h2 id="visit-title">Plan Your Drain Visit</h2><p>Tell us the address, affected fixtures, urgency and any previous clearing or camera findings. Arrange keys and a contact who can authorise work on shared pipework.</p><p>We assess access, discuss the suitable clearing method and check flow after agreed work. A damaged pipe may need a separate repair; the findings and scope are explained before you decide.</p></div>
+      <div class="home-provider"><h3>A Licensed Team</h3><p>{site.name} is operated by {site.operator}, NSW contractor licence {site.licence}.</p><blockquote>“{reviews[1].text}”<cite>{reviews[1].name}</cite></blockquote><a href="/about/">Meet the team</a></div>
     </section>
-
-    <section class="drain-section process-section" aria-labelledby="process-title">
-      <div class="section-heading"><h2 id="process-title">From first call to a drain that makes sense.</h2><p>Clear communication is part of the work. We explain the immediate task, the evidence found and any separate repair recommendation.</p></div>
-      <ol>{journey.map((step, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
+    <section class="drain-section home-coverage" aria-labelledby="areas-title">
+      <div class="section-heading"><h2 id="areas-title">Upper North Shore Coverage</h2><p>From Roseville and Lindfield through Gordon and Pymble to Turramurra, Wahroonga and Hornsby, tell us about gates, steps and rear-garden access. Coverage and the next available response are confirmed by address.</p></div>
+      <div class="home-area-links">{areas.map(area => <a href={'/service-areas/'+area.slug+'/'}>{area.name}</a>)}</div>
+      <a href="/service-areas/">All service-area guides</a>
     </section>
-
-    <section class="local-section" aria-labelledby="areas-title">
-      <div class="local-section__heading"><h2 id="areas-title">Blocked drain expertise across the Upper North Shore.</h2><p>From Roseville and Lindfield through Gordon, Pymble and Turramurra to Wahroonga and Hornsby. Mature gardens, retained clay lines, long rear-yard runs and shared apartment drains each need the right access and assessment. Choose your suburb, then call with your full address to confirm coverage.</p><a href="/service-areas/">View all service areas</a></div>
-      <div class="local-grid">{areas.map((area) => <a href={`/service-areas/${area.slug}/`}><span>{area.postcode}</span><strong>{area.name}</strong><small>{area.property}</small></a>)}</div>
-    </section>
-
-    <section class="experience-section" aria-labelledby="experience-title">
-      <ResponsiveImage src="/images/team.webp" alt="Three licensed plumbers standing beside a blue service vehicle" widths={[420, 700, 1000]} sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" />
-      <div><h2 id="experience-title">Licensed blocked-drain plumbers for the Upper North Shore.</h2><p>{site.name} handles blocked toilets, sewer and stormwater drains, CCTV inspections, water jetting and pipe repairs. Our licensed team explains the findings, agrees the scope and checks flow after the work.</p><p>The service is operated by {site.operator}. Regulated drainage work is carried out under NSW contractor licence {site.licence}.</p><a class="home-button home-button--light" href="/about/">Meet the Drain Team</a></div>
-    </section>
-
-    <section class="drain-section reviews-section" id="reviews" aria-labelledby="reviews-title">
-      <div class="section-heading"><h2 id="reviews-title">Customers remember the explanation.</h2><p>What customers say about Antons Plumbing &amp; Gas.</p></div>
-      <div class="review-list">{reviews.map((review) => <figure><blockquote>“{review.text}”</blockquote><figcaption>{review.name}</figcaption></figure>)}</div>
-    </section>
-
     <section class="drain-section faq-section" aria-labelledby="faq-title">
-      <div class="section-heading"><h2 id="faq-title">Blocked-drain questions, answered clearly.</h2><p>Useful guidance before you call. If wastewater is overflowing, stop using affected fixtures and contact a professional.</p></div>
-      <div class="faq-list">{faqs.map((faq) => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div>
+      <div class="section-heading"><h2 id="faq-title">Before You Book</h2></div>
+      <div class="faq-list">{homeFaqs.map(faq => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div>
     </section>
   </div>
   <CtaBand title="Tell Us What Your Drain Is Doing" />
 </BaseLayout>
+<style>
+.home-service-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2rem;margin-bottom:1.5rem}
+.home-service-index a{color:inherit;text-decoration:none;border-top:1px solid var(--line);padding:1.25rem 0}
+.home-service-index h3{font-size:1.5rem;margin-bottom:.5rem}
+.home-service-index p{margin:0}
+.home-service-index a:hover h3{text-decoration:underline}
+.home-visit{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:3rem;border-block:1px solid var(--line)}
+.home-provider h3{font-size:1.5rem}
+.home-provider blockquote{margin:1.5rem 0;font-size:1rem}
+.home-provider cite{display:block;font-style:normal;font-weight:700;margin-top:.75rem}
+.home-area-links{display:flex;flex-wrap:wrap;gap:.25rem 1.5rem;margin-bottom:1rem}
+.home-area-links a{display:inline-flex;min-height:44px;align-items:center}
+@media(max-width:760px){.home-service-index,.home-visit{grid-template-columns:1fr}.home-visit{gap:2rem}.home-service-index{gap:0}}
+</style>
