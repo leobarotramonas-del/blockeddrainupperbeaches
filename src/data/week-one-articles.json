@@ -1181,5 +1181,118 @@
     "image": "/images/blog-w04-08-1-featured.webp",
     "width": 640,
     "height": 854
+  },
+  {
+    "site": 7,
+    "category": "Stormwater drains",
+    "serviceSlug": "stormwater-drains",
+    "photo": 2,
+    "seoTitle": "St Ives Stormwater Backup | Blockage or Pipe Damage",
+    "description": "Stormwater backing up beside a St Ives home could be a surface blockage or damaged pipe. Check the clues before planning a drain repair.",
+    "imageAlt": "Plumber inspecting a residential stormwater drain",
+    "caption": "The pit, downpipe and discharge path all help locate a stormwater backup.",
+    "introduction": "<p>If stormwater backs up beside a St Ives house during rain, keep clear of the flooded area and check whether leaves are blocking a visible grate. A clear grate with water still rising can point farther along the pipe, including a restriction or damaged section. Ask a drainage plumber to trace the flow path and inspect it before deciding whether clearing or repair is needed.</p>",
+    "takeaways": [
+      "Keep people away from floodwater and hidden pits.",
+      "Remove only loose surface debris you can reach safely.",
+      "Record which pits and downpipes overflow.",
+      "Use inspection findings to choose clearing or repair."
+    ],
+    "faqs": [
+      [
+        "Can leaves alone cause a backup?",
+        "Yes, a surface grate or pit can become obstructed."
+      ],
+      [
+        "Does slow drainage prove collapse?",
+        "No. Deposits, roots or an outlet problem can also restrict flow."
+      ],
+      [
+        "Should I lift a heavy pit lid?",
+        "No. Leave unsafe or heavy covers to a professional."
+      ],
+      [
+        "Can the drain be inspected in rain?",
+        "Access and visibility may be limited; the plumber will advise."
+      ],
+      [
+        "Is stormwater the same as sewer?",
+        "No. They carry different water and require the correct inspection route."
+      ],
+      [
+        "What if several downpipes overflow?",
+        "Tell the plumber; a shared downstream section may need checking."
+      ],
+      [
+        "Can a camera find a broken pipe?",
+        "It can show visible damage in an accessible section."
+      ],
+      [
+        "Will jetting fix a collapse?",
+        "No. Clearing does not rebuild a broken pipe."
+      ],
+      [
+        "Who maintains a private stormwater drain?",
+        "Usually the property owner, subject to the asset and local arrangements."
+      ],
+      [
+        "What should a quote include?",
+        "Fault location, method, access, testing and reinstatement."
+      ]
+    ],
+    "conclusion": "The surface overflow is the symptom; the pipe condition determines the fix. Trace the connected pits and outlet, inspect the accessible line and then price the work the evidence supports.",
+    "ctaAnchor": "St Ives stormwater drain service",
+    "ctaTail": "Call Blocked Drains Upper North Shore with photos from the storm and the overflow location.",
+    "body": "<h2 id=\"start-at-the-surface-without-taking-risks\">Start at the surface without taking risks</h2><p>Stay away from deep water, exposed electrics and pits whose lids have moved. If safe, clear loose leaves from a visible grate using a tool, without entering water or lifting a heavy cover. Photograph where water pools and note when it starts during rain. A backup beside one wall may come from a nearby downpipe or a farther downstream restriction, so the puddle alone does not identify the break.</p><h2 id=\"trace-the-stormwater-route\">Trace the stormwater route</h2><p>List which downpipes, yard pits and driveway drains appear connected. Ask the plumber to identify the upstream and downstream access points and the intended outlet. Older St Ives properties may have changes that are missing from available plans. The technician should distinguish a stormwater pipe from the sewer before using any equipment. Marking the route helps avoid opening the wrong patch of garden or paving.</p><h2 id=\"inspect-beyond-the-grate\">Inspect beyond the grate</h2><p>A blockage can sit inside a pit, at a bend or farther along a pipe. Camera footage may show roots, a displaced joint or a collapsed section once the line is accessible and sufficiently clear. Ask for a measured distance from the entry point and a marked surface location where possible. If water or debris blocks the view, record the limit rather than treating an unseen section as sound.</p><h2 id=\"match-the-method-to-the-finding\">Match the method to the finding</h2><p>Removing leaves or jetting a pipe can restore flow when the line is structurally sound. A cracked, crushed or badly shifted section may need a defined repair instead. Ask why the proposed method fits the observed condition and whether other branches are affected. Avoid a quote that names excavation without saying where the fault is; equally, repeated jetting is unlikely to cure a confirmed collapse.</p><h2 id=\"check-boundaries-and-approvals\">Check boundaries and approvals</h2><p>Private stormwater drains generally need owner maintenance, while public assets have separate responsibilities. <a href=\"https://www.lanecove.nsw.gov.au/Services/Roads-and-Footpaths/Drainage-and-Stormwater\">Lane Cove Council’s drainage guidance</a> gives a general explanation, though St Ives asset ownership must be checked with the relevant council and property records. If the line crosses another property or easement, clarify access and permissions before work starts.</p><h2 id=\"test-and-document-the-repair\">Test and document the repair</h2><p>Ask the plumber to explain how flow will be checked after clearing or repair, and what will happen to disturbed soil, paving and garden beds. Save before and after footage, location marks and a simple diagram of the drain route. That record is useful before future landscaping or extensions. Also note whether the outlet itself was inspected; an upstream repair cannot compensate for an unresolved downstream discharge problem.</p>",
+    "check": [
+      "Before booking",
+      "Photograph safe vantage points during rain and note which pits or downpipes overflow."
+    ],
+    "id": "W04-08-2",
+    "title": "Stormwater Backs Up Beside a St Ives House: Blockage or Collapsed Pipe?",
+    "slug": "stormwater-backs-up-beside-a-st-ives-house-blockage-or-collapsed-pipe",
+    "date": "2026-11-11",
+    "updatedDate": "2026-11-11",
+    "indexPath": "/blog/",
+    "path": "/blog/stormwater-backs-up-beside-a-st-ives-house-blockage-or-collapsed-pipe/",
+    "service": "/services/stormwater-drains",
+    "serviceURL": "/services/stormwater-drains/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "start-at-the-surface-without-taking-risks",
+        "label": "Start at the surface without taking risks"
+      },
+      {
+        "depth": 2,
+        "id": "trace-the-stormwater-route",
+        "label": "Trace the stormwater route"
+      },
+      {
+        "depth": 2,
+        "id": "inspect-beyond-the-grate",
+        "label": "Inspect beyond the grate"
+      },
+      {
+        "depth": 2,
+        "id": "match-the-method-to-the-finding",
+        "label": "Match the method to the finding"
+      },
+      {
+        "depth": 2,
+        "id": "check-boundaries-and-approvals",
+        "label": "Check boundaries and approvals"
+      },
+      {
+        "depth": 2,
+        "id": "test-and-document-the-repair",
+        "label": "Test and document the repair"
+      }
+    ],
+    "words": 766,
+    "image": "/images/blog-w04-08-2-featured.webp",
+    "width": 960,
+    "height": 541
   }
 ]
