@@ -1417,5 +1417,118 @@
     "image": "/images/blog-w04-08-3-featured.webp",
     "width": 800,
     "height": 800
+  },
+  {
+    "site": 7,
+    "category": "Blocked toilets",
+    "serviceSlug": "blocked-toilets",
+    "photo": 16,
+    "seoTitle": "Blocked Toilet in Gordon | Pan or Main Sewer?",
+    "description": "A blocked toilet in Gordon could be local to the pan or a main-sewer restriction. Check the pattern before choosing clearing or inspection.",
+    "imageAlt": "Plumber checking a toilet and its plumbing connections",
+    "caption": "Toilet behaviour and nearby drains help locate the likely restriction.",
+    "introduction": "<p>A Gordon toilet blockage is more likely in the pan or its short branch when every other fixture works normally. If a shower gurgles, an outside gully rises or several toilets are affected, the main sewer deserves investigation. Stop flushing a rising bowl, keep people away from wastewater and give the drain plumber the full symptom pattern rather than requesting one tool in advance.</p>",
+    "takeaways": [
+      "One affected pan and several affected fixtures lead to different checks.",
+      "Stop flushing before the bowl overflows.",
+      "Old pipework or tree roots are possibilities, not a diagnosis.",
+      "Ask for a camera check if the same blockage returns."
+    ],
+    "faqs": [
+      [
+        "Does a blocked pan always need a drain camera?",
+        "No. A local obstruction may clear without one."
+      ],
+      [
+        "What does a gurgling floor waste suggest?",
+        "It can indicate a shared downstream restriction."
+      ],
+      [
+        "Can tree roots enter a sewer?",
+        "They can enter through defects, but a camera must confirm the condition."
+      ],
+      [
+        "Should I use a drain-cleaning chemical?",
+        "Avoid adding chemicals to a blocked toilet; tell the plumber if you already have."
+      ],
+      [
+        "Can plunging damage the toilet?",
+        "Excess force or unsuitable tools can damage fittings; stop if other drains back up."
+      ],
+      [
+        "When might the toilet be removed?",
+        "If access or a lodged object makes that the suitable method."
+      ],
+      [
+        "Will jetting clear a local object?",
+        "A pan object may need retrieval rather than downstream jetting."
+      ],
+      [
+        "Can an old clay pipe be repaired?",
+        "Repair options depend on the camera findings, access and pipe condition."
+      ],
+      [
+        "Who deals with a boundary blockage?",
+        "The plumber should record the location; responsibility depends on the connection."
+      ],
+      [
+        "What should I keep after clearing?",
+        "The location, method, tests and any footage or repair recommendation."
+      ]
+    ],
+    "body": "<h2 id=\"stop-the-overflow-first\">Stop the overflow first</h2><p>A bowl that rises after flushing should be left alone. Do not keep testing it to see whether water eventually moves. If there is wastewater on the floor, keep children and pets clear and avoid spreading it through the house. Turn off the toilet’s local water inlet only if the valve is accessible and works normally. This prevents refilling; it does not clear the blockage. Call promptly if sewage is entering living areas.</p><h2 id=\"compare-the-nearest-fixtures\">Compare the nearest fixtures</h2><p>Look at a second toilet, shower, basin and outside gully. A local pan obstruction may leave them unaffected. When several fixtures slow or gurgle together, the restriction may sit after their branches join. Do not deliberately run a full bath or laundry load as a test. Mention any recent change in the garden, a prior root problem or a previous repair, but keep those as context rather than assuming they identify the current fault.</p><h2 id=\"start-with-the-least-disruptive-access\">Start with the least disruptive access</h2><p>A plumber can assess whether a toilet-safe tool is appropriate or whether an inspection opening gives better access to a downstream line. Pulling the toilet, opening a pit and high-pressure jetting are different interventions with different reasons. Ask what the first method is intended to prove. NSW requires the right licence or certificate for <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">plumbing and draining work</a>.</p><h2 id=\"use-a-camera-when-the-line-needs-evidence\">Use a camera when the line needs evidence</h2><p>If the same toilet blocks repeatedly, or other fixtures suggest a sewer restriction, ask whether a CCTV inspection is useful after clearing. The camera can show an accessible pipe’s internal condition, including a visible joint opening or root entry, and a locator may relate the finding to the ground above. It cannot always pass a solid obstruction or prove the condition of pipe beyond its reach. Request the fault distance and footage before discussing repair.</p><h2 id=\"separate-clearing-from-a-durable-repair\">Separate clearing from a durable repair</h2><p>Removing a blockage restores use, but it does not necessarily fix a cracked or displaced pipe. If a defect is found, compare targeted repair, relining and excavation based on pipe shape, junctions, access and remaining service life. Do not accept a relining quote based only on the length of pipe. Conversely, one local obstruction without a pipe defect does not justify digging the garden. Ask the plumber to tie the proposal to the recorded finding.</p><h2 id=\"document-the-location-and-outcome\">Document the location and outcome</h2><p>Sydney Water’s <a href=\"https://www.sydneywater.com.au/plumbing-building-developing/plumbing/wastewater-blockages.html\">wastewater blockage guidance</a> says responsibility depends on where the affected line connects. Keep the plumber’s notes if the fault is near a boundary or shared point. Confirm the toilet and other affected fixtures were tested after clearing, and ask whether further work is recommended or simply something to watch. A useful report saves guesswork if the blockage returns.</p>",
+    "conclusion": "The pan-versus-main-sewer question is answered by the pattern of affected fixtures and the plumber’s inspection. Clear the immediate blockage safely, then investigate recurring faults with evidence.",
+    "ctaAnchor": "Gordon blocked toilet service",
+    "ctaTail": "Call Blocked Drains Upper North Shore with the toilet and nearby drain symptoms.",
+    "check": [
+      "Quick check",
+      "Are the shower, second toilet or outside gully affected as well? Stop testing if wastewater rises."
+    ],
+    "id": "W05-08-1",
+    "title": "Blocked Toilet in Gordon: Is the Problem in the Pan or Main Sewer?",
+    "slug": "blocked-toilet-in-gordon-is-the-problem-in-the-pan-or-main-sewer",
+    "date": "2026-11-16",
+    "updatedDate": "2026-11-16",
+    "indexPath": "/blog/",
+    "path": "/blog/blocked-toilet-in-gordon-is-the-problem-in-the-pan-or-main-sewer/",
+    "service": "/services/blocked-toilets",
+    "serviceURL": "/services/blocked-toilets/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "stop-the-overflow-first",
+        "label": "Stop the overflow first"
+      },
+      {
+        "depth": 2,
+        "id": "compare-the-nearest-fixtures",
+        "label": "Compare the nearest fixtures"
+      },
+      {
+        "depth": 2,
+        "id": "start-with-the-least-disruptive-access",
+        "label": "Start with the least disruptive access"
+      },
+      {
+        "depth": 2,
+        "id": "use-a-camera-when-the-line-needs-evidence",
+        "label": "Use a camera when the line needs evidence"
+      },
+      {
+        "depth": 2,
+        "id": "separate-clearing-from-a-durable-repair",
+        "label": "Separate clearing from a durable repair"
+      },
+      {
+        "depth": 2,
+        "id": "document-the-location-and-outcome",
+        "label": "Document the location and outcome"
+      }
+    ],
+    "words": 814,
+    "image": "/images/blog-w05-08-1-featured.webp",
+    "width": 960,
+    "height": 541
   }
 ]
