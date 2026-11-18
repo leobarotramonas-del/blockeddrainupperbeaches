@@ -1530,5 +1530,118 @@
     "image": "/images/blog-w05-08-1-featured.webp",
     "width": 960,
     "height": 541
+  },
+  {
+    "site": 7,
+    "category": "Stormwater drains",
+    "serviceSlug": "stormwater-drains",
+    "photo": 52,
+    "seoTitle": "Killara Stormwater Pit Smells: What Should Be Checked First?",
+    "description": "A smell from a Killara stormwater pit can come from trapped debris, stagnant water or a wrong connection. Here is how a plumber checks it.",
+    "imageAlt": "Stormwater pit and drain inspection at a Sydney property",
+    "caption": "An odour is a clue; the pit and connecting line need checking before a cause is named.",
+    "introduction": "<p>A smelly stormwater pit in Killara needs a look at the pit, the water sitting in it and the pipes connected to it. Wet leaves and stagnant water can smell, but a sewage-like odour or repeated flow in dry weather deserves closer investigation. Keep clear of the pit water, note when the smell is strongest, and arrange an inspection rather than tipping chemicals down the grate.</p>",
+    "takeaways": [
+      "Note whether the smell appears after rain or in dry weather.",
+      "Visible silt and leaves may be removable, but repeat ponding needs investigation.",
+      "A sewage-like smell does not prove a sewer cross-connection.",
+      "A plumber can check accessible lines and recommend the right next step."
+    ],
+    "faqs": [
+      [
+        "Can rotting leaves make a pit smell?",
+        "Yes. Organic debris in standing water can produce an unpleasant odour."
+      ],
+      [
+        "Does a sewage smell prove a sewer leak?",
+        "No. It is a reason to investigate, not a diagnosis."
+      ],
+      [
+        "Should stormwater flow in dry weather?",
+        "Some sources can produce dry-weather flow; persistent or suspicious flow should be traced."
+      ],
+      [
+        "Can I pour bleach into the pit?",
+        "Do not add chemicals to stormwater. They can reach local waterways."
+      ],
+      [
+        "What should I photograph?",
+        "Record water level, debris, staining and any flow during dry weather."
+      ],
+      [
+        "Can a blocked outlet cause the smell?",
+        "A blocked outlet can leave stagnant water and debris in the pit."
+      ],
+      [
+        "Does the pit need replacing?",
+        "Only if its condition or design warrants it after inspection."
+      ],
+      [
+        "Can CCTV inspect the pipe?",
+        "A camera can inspect an accessible line once conditions allow a useful view."
+      ],
+      [
+        "Who should I tell about suspected pollution?",
+        "Contact the appropriate council or water authority if you suspect contaminated discharge."
+      ],
+      [
+        "What if the smell returns after cleaning?",
+        "Ask for the outlet, upstream flow and possible sources to be checked."
+      ]
+    ],
+    "body": "<h2 id=\"watch-the-timing-before-touching-the-pit\">Watch the timing before touching the pit</h2><p>Note whether the odour follows heavy rain, builds on hot dry days or appears whenever a nearby fixture is used. Look through the grate for leaves, silt, oily film, unusual colour or a steady dry-weather trickle. Do not climb into a pit or handle water that might be contaminated. A short video and the date can help a plumber distinguish a one-off build-up from a continuing source.</p><h2 id=\"check-what-is-collecting-inside\">Check what is collecting inside</h2><p>Leaves and garden debris can trap water and break down in a pit. A blocked outlet can keep the material wet long after rain. A plumber can remove accessible debris safely and see whether water then drains away. If the pit fills again, cleaning alone has not identified the cause. The connected pipe may have silt, roots, a poor fall or damage that requires a separate inspection.</p><h2 id=\"treat-suspicious-flow-as-a-tracing-job\">Treat suspicious flow as a tracing job</h2><p>A sewer-like odour, grey water or flow during dry weather should be investigated rather than labelled by smell alone. A misconnection, leak or another upstream source is possible. Hornsby Shire Council explains how to report a <a href=\"https://www.hornsby.nsw.gov.au/Environment/Waterways/Pollution-incident-or-a-concern?lang_update=639222114877457457\">waterway pollution concern</a>. Keep chemicals, paint and cleaning products out of the pit because stormwater can enter waterways.</p><h2 id=\"inspect-the-pipe-when-cleaning-is-not-enough\">Inspect the pipe when cleaning is not enough</h2><p>If the outlet will not take water or the pit repeatedly fills, a plumber can check accessible sections and use a camera when visibility allows. Ask for the access point, travel direction and location of any obstruction. Jetting may remove suitable silt or roots, but the pipe condition matters. A damaged pipe or continuing source of debris may need repair, not just another flush.</p><h2 id=\"separate-drainage-from-sewer-responsibility\">Separate drainage from sewer responsibility</h2><p>A stormwater pit and a sewer line serve different purposes. Do not assume a suspected sewage smell means the stormwater system is connected to sewer. The plumber can trace the relevant pipes and advise who needs to be contacted if contamination is suspected. Sydney Water’s <a href=\"https://www.sydneywater.com.au/residential/services/responsibility-for-your-services/typical-system-connections.html\">typical connection guide</a> illustrates service boundaries, though the actual site layout must be checked.</p><h2 id=\"ask-for-a-useful-outcome\">Ask for a useful outcome</h2><p>The inspection report should say what was found in the pit, whether the outlet drains, what pipe length was inspected and what remains uncertain. If the problem appears to come from off-site, record the evidence before arranging major work. If the pit is damaged, request a repair recommendation with access and reinstatement described. That gives you a practical next step instead of another temporary deodorising attempt.</p>",
+    "conclusion": "A Killara pit odour can have a simple debris cause or point to a drainage fault. Check the timing and visible signs, then trace the water before choosing a repair.",
+    "ctaAnchor": "Killara stormwater drain service",
+    "ctaTail": "Call Blocked Drains Upper North Shore with your observations and we can check the pit and accessible stormwater line.",
+    "check": [
+      "Before booking",
+      "Note rain timing, dry-weather flow, water colour and whether the pit drains after cleaning."
+    ],
+    "id": "W05-08-2",
+    "title": "A Killara Stormwater Pit Smells: What Should Be Checked First?",
+    "slug": "a-killara-stormwater-pit-smells-what-should-be-checked-first",
+    "date": "2026-11-18",
+    "updatedDate": "2026-11-18",
+    "indexPath": "/blog/",
+    "path": "/blog/a-killara-stormwater-pit-smells-what-should-be-checked-first/",
+    "service": "/services/stormwater-drains",
+    "serviceURL": "/services/stormwater-drains/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "watch-the-timing-before-touching-the-pit",
+        "label": "Watch the timing before touching the pit"
+      },
+      {
+        "depth": 2,
+        "id": "check-what-is-collecting-inside",
+        "label": "Check what is collecting inside"
+      },
+      {
+        "depth": 2,
+        "id": "treat-suspicious-flow-as-a-tracing-job",
+        "label": "Treat suspicious flow as a tracing job"
+      },
+      {
+        "depth": 2,
+        "id": "inspect-the-pipe-when-cleaning-is-not-enough",
+        "label": "Inspect the pipe when cleaning is not enough"
+      },
+      {
+        "depth": 2,
+        "id": "separate-drainage-from-sewer-responsibility",
+        "label": "Separate drainage from sewer responsibility"
+      },
+      {
+        "depth": 2,
+        "id": "ask-for-a-useful-outcome",
+        "label": "Ask for a useful outcome"
+      }
+    ],
+    "words": 810,
+    "image": "/images/blog-w05-08-2-featured.webp",
+    "width": 800,
+    "height": 800
   }
 ]
