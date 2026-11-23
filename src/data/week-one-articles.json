@@ -1756,5 +1756,118 @@
     "image": "/images/blog-w05-08-3-featured.webp",
     "width": 800,
     "height": 800
+  },
+  {
+    "site": 7,
+    "category": "Stormwater drains",
+    "serviceSlug": "stormwater-drains",
+    "photo": 55,
+    "seoTitle": "Pymble Garden Drain Surges in Light Rain | Checks",
+    "description": "A Pymble garden drain surges even in light rain? Check the grate, upstream flow and outlet before deciding whether clearing or pipe repair is needed.",
+    "imageAlt": "Silt collected in a stormwater pit",
+    "caption": "A surge during light rain can expose an outlet restriction or downstream pipe problem.",
+    "introduction": "<p>A Pymble garden drain that surges in light rain is not handling even modest flow. Clear loose leaves from the grate, then note whether water rises only at that pit or also at nearby downpipes and drains. A drain specialist can trace the outlet, clear any obstruction and inspect the pipe if the surge returns. Do not assume a larger grate will solve a blocked or poorly graded line.</p>",
+    "takeaways": [
+      "Light-rain overflow points to limited capacity or a restriction worth tracing.",
+      "Compare other pits and downpipes during the same shower.",
+      "Surface cleaning helps only if debris is at the opening.",
+      "Ask for an outlet and pipe assessment before rebuilding the pit."
+    ],
+    "faqs": [
+      [
+        "Can leaves alone cause the surge?",
+        "Yes, if they cover the grate or outlet; clear only reachable surface debris."
+      ],
+      [
+        "Why does a garden pit overflow before the street floods?",
+        "Its local line may be restricted or take flow from several sources."
+      ],
+      [
+        "Will a bigger grate fix a blocked pipe?",
+        "No. The downstream line must carry the water away."
+      ],
+      [
+        "Can roots enter stormwater pipes?",
+        "Yes, usually through a damaged joint or crack."
+      ],
+      [
+        "Is jetting enough?",
+        "It can clear debris but will not repair a broken or sagging pipe."
+      ],
+      [
+        "When should a camera be used?",
+        "When the route is unclear, blockage returns or damage is suspected."
+      ],
+      [
+        "Should I open the pit in rain?",
+        "Do not lift a heavy or unsafe cover during active flow."
+      ],
+      [
+        "What if water approaches the house?",
+        "Keep clear of wet electrics and arrange prompt help."
+      ],
+      [
+        "Does slope matter?",
+        "Yes. Pipe fall and low points affect drainage even after cleaning."
+      ],
+      [
+        "What should the quote show?",
+        "The affected section, evidence, access and how the result will be tested."
+      ]
+    ],
+    "body": "<h2 id=\"watch-the-pattern-from-a-safe-place\">Watch the pattern from a safe place</h2><p>During light rain, photograph the pit and nearby downpipes without walking into water or lifting a grate. Note whether the pit rises immediately or only after several minutes. Check if other garden drains behave the same way. If one pit is affected, its outlet may be obstructed; if several surge together, the downstream line deserves attention. The time and sequence help the specialist decide where to start rather than opening every pit in the garden.</p><h2 id=\"clear-what-is-safely-visible\">Clear what is safely visible</h2><p>Remove leaves and mulch sitting on top of an accessible grate once it is safe to do so. Keep removed material away from the opening so the next shower does not wash it straight back. Do not reach into a deep pit, climb inside or pour chemicals into the stormwater system. A grate can look clean while silt blocks the outlet beneath it. If water remains high after rain, the visible opening is unlikely to be the whole story.</p><h2 id=\"find-the-intended-discharge\">Find the intended discharge</h2><p>Ask where the garden drain is meant to run: another pit, a boundary connection or a different discharge arrangement. Older gardens and later landscaping can hide the original route. A traced pipe helps identify the length that needs clearing and whether another owner or authority might be involved. Do not guess from the direction of the surface slope. The below-ground line may turn around paving, trees or services before it reaches an outlet.</p><h2 id=\"use-clearing-and-footage-for-different-questions\">Use clearing and footage for different questions</h2><p>Jetting removes many loose obstructions. A camera inspection can then show whether the pipe has cracks, displaced joints, root entry or a low section retaining water. The footage needs to be tied to a location, not just described as “bad pipe”. A clean-looking line may still have inadequate fall under heavier flow; a dirty line may simply need maintenance. NSW requires appropriate authorisation for <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">draining work</a>.</p><h2 id=\"consider-garden-changes\">Consider garden changes</h2><p>Tell the contractor if a new garden bed, paving or downpipe was added before the problem started. Extra inflow can overload a small pit or send mulch into the grate. A tree near a damaged pipe may contribute root entry, but proximity alone does not prove the cause. If excavation is proposed, ask how plants, paving and buried services will be protected or reinstated. The cheapest clean-out is not a lasting answer if the line itself is broken.</p><h2 id=\"approve-a-measured-plan\">Approve a measured plan</h2><p>Ask what was found at the grate, pit outlet and downstream pipe. A useful proposal explains whether clearing, pit alteration or a defined pipe repair is needed, and why. Request the footage or photos where available and a flow test after work. If a stormwater line repeatedly holds water, discuss gradient or damage before paying for another identical clean. That keeps the recommendation tied to what the drain actually does in rain.</p>",
+    "conclusion": "A drain that surges in light rain needs its outlet and downstream path checked. The right fix depends on whether the restriction is at the pit or in the line.",
+    "ctaAnchor": "Pymble stormwater drain service",
+    "ctaTail": "Call Blocked Drains Upper North Shore with a short video of the surge and photos of nearby pits to plan an inspection.",
+    "check": [
+      "During the next safe shower",
+      "Does only this pit surge, or do nearby drains and downpipes rise too? Note the sequence without opening a pit."
+    ],
+    "id": "W06-08-1",
+    "title": "A Pymble Garden Drain Surges During Light Rain: Where Should Inspection Start?",
+    "slug": "a-pymble-garden-drain-surges-during-light-rain-where-should-inspection-start",
+    "date": "2026-11-23",
+    "updatedDate": "2026-11-23",
+    "indexPath": "/blog/",
+    "path": "/blog/a-pymble-garden-drain-surges-during-light-rain-where-should-inspection-start/",
+    "service": "/services/stormwater-drains",
+    "serviceURL": "/services/stormwater-drains/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "watch-the-pattern-from-a-safe-place",
+        "label": "Watch the pattern from a safe place"
+      },
+      {
+        "depth": 2,
+        "id": "clear-what-is-safely-visible",
+        "label": "Clear what is safely visible"
+      },
+      {
+        "depth": 2,
+        "id": "find-the-intended-discharge",
+        "label": "Find the intended discharge"
+      },
+      {
+        "depth": 2,
+        "id": "use-clearing-and-footage-for-different-questions",
+        "label": "Use clearing and footage for different questions"
+      },
+      {
+        "depth": 2,
+        "id": "consider-garden-changes",
+        "label": "Consider garden changes"
+      },
+      {
+        "depth": 2,
+        "id": "approve-a-measured-plan",
+        "label": "Approve a measured plan"
+      }
+    ],
+    "words": 868,
+    "image": "/images/blog-w06-08-1-featured.webp",
+    "width": 640,
+    "height": 640
   }
 ]
