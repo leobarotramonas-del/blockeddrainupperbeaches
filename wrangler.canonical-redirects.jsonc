@@ -1,0 +1,15 @@
+{
+  "name": "antons-service-sites-canonical-redirects",
+  "main": "infrastructure/canonical-redirects.mjs",
+  "compatibility_date": "2026-11-23",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "www.thehillsdistrictplumber.com.au/*", "zone_id": "fe3bd1882fc97027f969cc97f2b2362b" },
+    { "pattern": "http://thehillsdistrictplumber.com.au/*", "zone_id": "fe3bd1882fc97027f969cc97f2b2362b" },
+    { "pattern": "www.thenorthenbeachesplumber.com.au/*", "zone_id": "88b6845433f67ededb1a4aec9fd5698e" },
+    { "pattern": "http://thenorthenbeachesplumber.com.au/*", "zone_id": "88b6845433f67ededb1a4aec9fd5698e" },
+    { "pattern": "www.blockeddrainshillsdistrict.com.au/*", "zone_id": "a491b3e76fe2c3123a828148bed96719" },
+    { "pattern": "http://blockeddrainshillsdistrict.com.au/*", "zone_id": "a491b3e76fe2c3123a828148bed96719" },
+    { "pattern": "http://blockeddrainslowernorthshore.com.au/*", "zone_id": "04e06341e69b501ccb2f5ff8cc4bbb6e" }
+  ]
+}
