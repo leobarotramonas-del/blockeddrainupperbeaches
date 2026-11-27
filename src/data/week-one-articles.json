@@ -1982,5 +1982,118 @@
     "image": "/images/blog-w06-08-2-featured.webp",
     "width": 640,
     "height": 854
+  },
+  {
+    "site": 7,
+    "category": "CCTV drain inspections",
+    "serviceSlug": "cctv-drain-inspections",
+    "photo": 41,
+    "seoTitle": "Lindfield Drain Camera Shows Standing Water | What It Means",
+    "description": "A Lindfield drain camera shows standing water? Learn how a plumber separates a blockage, pipe sag and poor fall before recommending repair.",
+    "imageAlt": "Drain camera footage used to assess roots and pipe condition",
+    "caption": "A camera view must be located and interpreted in the context of the full line.",
+    "introduction": "<p>Standing water on a Lindfield drain camera can hide a blockage, show a low section or suggest poor fall, but one frame cannot tell which. Ask for the full recording, the location and length of the water, and a view after any obstruction is cleared. If a repair is proposed because of grade, request a measurement method rather than relying on the picture alone.</p>",
+    "takeaways": [
+      "One flooded image is not a diagnosis.",
+      "Clearing may be needed before the pipe wall is visible.",
+      "A sag and a long poor-fall run can require different scopes.",
+      "Locate the finding and preserve the full recording."
+    ],
+    "faqs": [
+      [
+        "Does standing water prove a blockage?",
+        "No. It may reflect obstruction, shape, fall or recent flow."
+      ],
+      [
+        "Can a camera see through the water?",
+        "Visibility may be limited; another pass after clearing can help."
+      ],
+      [
+        "What is a pipe sag?",
+        "A local low section that can retain water and solids."
+      ],
+      [
+        "Is poor fall the same as a sag?",
+        "No. Poor fall can affect a longer run rather than one low spot."
+      ],
+      [
+        "Does CCTV measure the gradient?",
+        "It suggests a problem but a survey may be needed for measurements."
+      ],
+      [
+        "Should the drain be jetted first?",
+        "When obstructed, clearing can improve the camera view."
+      ],
+      [
+        "Can a sag be relined?",
+        "Relining may not correct the underlying grade; ask for evidence."
+      ],
+      [
+        "Can one section be replaced?",
+        "Often if the defect is located and adjacent pipe is sound."
+      ],
+      [
+        "Why ask for the whole video?",
+        "It shows the approach, extent and pipe beyond the wet section."
+      ],
+      [
+        "What belongs in a quote?",
+        "Located defect, access, method, testing and reinstatement."
+      ]
+    ],
+    "conclusion": "Standing water is a finding to explain, not a repair method. Clear what obscures the view, locate the wet section and measure fall if the decision depends on it.",
+    "ctaAnchor": "Lindfield CCTV drain inspections",
+    "ctaTail": "Share the complete camera recording with Drains Upper North Shore so we can discuss what it does and does not prove.",
+    "check": [
+      "Camera evidence checklist",
+      "Does the report show where the camera started, the wet section’s extent, downstream pipe and any grade measurement?"
+    ],
+    "body": "<h2 id=\"read-more-than-the-deepest-frame\">Read more than the deepest frame</h2><p>A camera lens lowered into water produces a dramatic image but little context. Ask where the inspection started and the distance to the wet section. The operator should record the approach, whether the camera passed through, how long the pool lasted and what appeared downstream. A recently used drain may have some water. What matters is whether the water repeatedly remains and collects solids. The report should identify visible pipe material, joints, roots and any section obscured by water.</p><h2 id=\"clear-obstructions-before-judging-structure\">Clear obstructions before judging structure</h2><p>Roots, grease or silt can dam water and conceal the pipe wall. Clearing can restore visibility, after which a second camera pass may show an offset joint or a low pipe. If the camera cannot pass a blockage safely, say so in the report. Do not call an unseen section sound, and do not call the whole run failed because the lens was submerged. Compare footage before and after clearing where available. The sequence separates removable material from a defect that will keep trapping it.</p><h2 id=\"separate-local-sag-from-long-poor-fall\">Separate local sag from long poor fall</h2><p>A sag is a local dip in the pipe; poor fall may extend over a much longer distance. Both can hold water, but they can differ in access and repair length. CCTV can suggest the pattern, while accurate grade assessment may need levels or other measurements. Ask the contractor to mark the suspected section above ground, note depth and check the adjacent line. A targeted repair may work for one low section. A longer run with incorrect fall requires a broader design discussion.</p><h2 id=\"compare-clearing-lining-and-excavation-honestly\">Compare clearing, lining and excavation honestly</h2><p>Clearing removes the current obstruction. Lining can address some pipe-wall defects when the host pipe is suitable, but it does not automatically restore a wrong grade. Excavation can reset a pipe section where geometry is the problem, with surface disruption to consider. Request the evidence behind each option and how success will be verified. If the camera finding is uncertain, a limited inspection or survey may be more useful than a premature whole-run quote.</p><h2 id=\"keep-the-work-within-the-right-scope\">Keep the work within the right scope</h2><p>NSW requires an appropriate <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">licence or certificate for draining work</a>. Ask the person assessing the fault to distinguish what has been observed from what still needs testing. A description such as “blocked”, “leaking” or “broken” is a symptom, not a priced repair scope. Before work starts, ask what will be inspected, what can be repaired at the first visit, what might need separate access or parts, and how the completed work will be checked. Keep any report, photographs and invoice with the property records.</p><h2 id=\"make-a-useful-booking-and-compare-proposals\">Make a useful booking and compare proposals</h2><p>For a Lindfield second opinion, send the full CCTV file and report, the access location, previous clearing dates and the symptom at fixtures or gullies. Ask what evidence distinguishes blockage, sag and poor fall; whether the pipe beyond the water was seen; and what measurements support the repair. If the line crosses a boundary or serves several units, clarify responsibility before work. The quote should name the section and exclusions for excavation and reinstatement.</p>",
+    "id": "W06-08-3",
+    "title": "A Lindfield Drain Camera Finds Standing Water: Blockage, Sag or Poor Fall?",
+    "slug": "a-lindfield-drain-camera-finds-standing-water-blockage-sag-or-poor-fall",
+    "date": "2026-11-27",
+    "updatedDate": "2026-11-27",
+    "indexPath": "/blog/",
+    "path": "/blog/a-lindfield-drain-camera-finds-standing-water-blockage-sag-or-poor-fall/",
+    "service": "/services/cctv-drain-inspections",
+    "serviceURL": "/services/cctv-drain-inspections/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "read-more-than-the-deepest-frame",
+        "label": "Read more than the deepest frame"
+      },
+      {
+        "depth": 2,
+        "id": "clear-obstructions-before-judging-structure",
+        "label": "Clear obstructions before judging structure"
+      },
+      {
+        "depth": 2,
+        "id": "separate-local-sag-from-long-poor-fall",
+        "label": "Separate local sag from long poor fall"
+      },
+      {
+        "depth": 2,
+        "id": "compare-clearing-lining-and-excavation-honestly",
+        "label": "Compare clearing, lining and excavation honestly"
+      },
+      {
+        "depth": 2,
+        "id": "keep-the-work-within-the-right-scope",
+        "label": "Keep the work within the right scope"
+      },
+      {
+        "depth": 2,
+        "id": "make-a-useful-booking-and-compare-proposals",
+        "label": "Make a useful booking and compare proposals"
+      }
+    ],
+    "words": 889,
+    "image": "/images/blog-w06-08-3-featured.webp",
+    "width": 800,
+    "height": 450
   }
 ]
